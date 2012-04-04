@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>device</key>
+	<string>mobile</string>
+	<key>mode</key>
+	<string>test</string>
+	<key>developmentRole</key>
+	<string>users-mobile</string>
+	<key>modelPrefix</key>
+	<string>MDM</string>
+	<key>definitionAsset</key>
+	<string>application.xml</string>
+</dict>
+</plist>

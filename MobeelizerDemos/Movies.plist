@@ -1,0 +1,1500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>The Shawshank Redemption</string>
+		<key>director</key>
+		<string>Frank Darabont</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Godfather</string>
+		<key>director</key>
+		<string>Francis Ford Coppola</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Godfather: Part II</string>
+		<key>director</key>
+		<string>Francis Ford Coppola</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Pulp Fiction</string>
+		<key>director</key>
+		<string>Quentin Tarantino</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Il buono, il brutto, il cattivo.</string>
+		<key>director</key>
+		<string>Sergio Leone</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>12 Angry Men</string>
+		<key>director</key>
+		<string>Sidney Lumet</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Schindler's List</string>
+		<key>director</key>
+		<string>Steven Spielberg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Dark Knight</string>
+		<key>director</key>
+		<string>Christopher Nolan</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Lord of the Rings: The Return of the King</string>
+		<key>director</key>
+		<string>Peter Jackson</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>One Flew Over the Cuckoo's Nest</string>
+		<key>director</key>
+		<string>Milos Forman</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Star Wars: Episode V - The Empire Strikes Back</string>
+		<key>director</key>
+		<string>Irvin Kershner</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Fight Club</string>
+		<key>director</key>
+		<string>David Fincher</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Inception</string>
+		<key>director</key>
+		<string>Christopher Nolan</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Shichinin no samurai</string>
+		<key>director</key>
+		<string>Akira Kurosawa</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Lord of the Rings: The Fellowship of the Ring</string>
+		<key>director</key>
+		<string>Peter Jackson</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Goodfellas</string>
+		<key>director</key>
+		<string>Martin Scorsese</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Star Wars</string>
+		<key>director</key>
+		<string>George Lucas</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Cidade de Deus</string>
+		<key>director</key>
+		<string>Fernando Meirelles</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Casablanca</string>
+		<key>director</key>
+		<string>Michael Curtiz</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Matrix</string>
+		<key>director</key>
+		<string>Andy Wachowski</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>C'era una volta il West</string>
+		<key>director</key>
+		<string>Sergio Leone</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Rear Window</string>
+		<key>director</key>
+		<string>Alfred Hitchcock</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Raiders of the Lost Ark</string>
+		<key>director</key>
+		<string>Steven Spielberg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Silence of the Lambs</string>
+		<key>director</key>
+		<string>Jonathan Demme</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Usual Suspects</string>
+		<key>director</key>
+		<string>Bryan Singer</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Se7en</string>
+		<key>director</key>
+		<string>David Fincher</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Lord of the Rings: The Two Towers</string>
+		<key>director</key>
+		<string>Peter Jackson</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Forrest Gump</string>
+		<key>director</key>
+		<string>Robert Zemeckis</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Psycho</string>
+		<key>director</key>
+		<string>Alfred Hitchcock</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>It's a Wonderful Life</string>
+		<key>director</key>
+		<string>Frank Capra</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Léon</string>
+		<key>director</key>
+		<string>Luc Besson</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Sunset Blvd.</string>
+		<key>director</key>
+		<string>Billy Wilder</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Memento</string>
+		<key>director</key>
+		<string>Christopher Nolan</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb</string>
+		<key>director</key>
+		<string>Stanley Kubrick</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Apocalypse Now</string>
+		<key>director</key>
+		<string>Francis Ford Coppola</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>American History X</string>
+		<key>director</key>
+		<string>Tony Kaye</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>North by Northwest</string>
+		<key>director</key>
+		<string>Alfred Hitchcock</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Terminator 2: Judgment Day</string>
+		<key>director</key>
+		<string>James Cameron</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Citizen Kane</string>
+		<key>director</key>
+		<string>Orson Welles</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Saving Private Ryan</string>
+		<key>director</key>
+		<string>Steven Spielberg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>American Beauty</string>
+		<key>director</key>
+		<string>Sam Mendes</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Toy Story 3</string>
+		<key>director</key>
+		<string>Lee Unkrich</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Alien</string>
+		<key>director</key>
+		<string>Ridley Scott</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>City Lights</string>
+		<key>director</key>
+		<string>Charles Chaplin</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Taxi Driver</string>
+		<key>director</key>
+		<string>Martin Scorsese</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Sen to Chihiro no kamikakushi</string>
+		<key>director</key>
+		<string>Hayao Miyazaki</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Vertigo</string>
+		<key>director</key>
+		<string>Alfred Hitchcock</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Shining</string>
+		<key>director</key>
+		<string>Stanley Kubrick</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Paths of Glory</string>
+		<key>director</key>
+		<string>Stanley Kubrick</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>M</string>
+		<key>director</key>
+		<string>Fritz Lang</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Pianist</string>
+		<key>director</key>
+		<string>Roman Polanski</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Le fabuleux destin d'Amélie Poulain</string>
+		<key>director</key>
+		<string>Jean-Pierre Jeunet</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Departed</string>
+		<key>director</key>
+		<string>Martin Scorsese</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Modern Times</string>
+		<key>director</key>
+		<string>Charles Chaplin</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Double Indemnity</string>
+		<key>director</key>
+		<string>Billy Wilder</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>WALL·E</string>
+		<key>director</key>
+		<string>Andrew Stanton</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Das Leben der Anderen</string>
+		<key>director</key>
+		<string>Florian Henckel von Donnersmarck</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Aliens</string>
+		<key>director</key>
+		<string>James Cameron</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>A Clockwork Orange</string>
+		<key>director</key>
+		<string>Stanley Kubrick</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Lawrence of Arabia</string>
+		<key>director</key>
+		<string>David Lean</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>To Kill a Mockingbird</string>
+		<key>director</key>
+		<string>Robert Mulligan</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>La vita è bella</string>
+		<key>director</key>
+		<string>Roberto Benigni</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Back to the Future</string>
+		<key>director</key>
+		<string>Robert Zemeckis</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Das Boot</string>
+		<key>director</key>
+		<string>Wolfgang Petersen</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Requiem for a Dream</string>
+		<key>director</key>
+		<string>Darren Aronofsky</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Eternal Sunshine of the Spotless Mind</string>
+		<key>director</key>
+		<string>Michel Gondry</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Reservoir Dogs</string>
+		<key>director</key>
+		<string>Quentin Tarantino</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Third Man</string>
+		<key>director</key>
+		<string>Carol Reed</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Jodaeiye Nader az Simin</string>
+		<key>director</key>
+		<string>Asghar Farhadi</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Prestige</string>
+		<key>director</key>
+		<string>Christopher Nolan</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Green Mile</string>
+		<key>director</key>
+		<string>Frank Darabont</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>L.A. Confidential</string>
+		<key>director</key>
+		<string>Curtis Hanson</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Nuovo Cinema Paradiso</string>
+		<key>director</key>
+		<string>Giuseppe Tornatore</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Chinatown</string>
+		<key>director</key>
+		<string>Roman Polanski</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Treasure of the Sierra Madre</string>
+		<key>director</key>
+		<string>John Huston</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Great Dictator</string>
+		<key>director</key>
+		<string>Charles Chaplin</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Gladiator</string>
+		<key>director</key>
+		<string>Ridley Scott</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Once Upon a Time in America</string>
+		<key>director</key>
+		<string>Sergio Leone</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Monty Python and the Holy Grail</string>
+		<key>director</key>
+		<string>Terry Gilliam</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Rashômon</string>
+		<key>director</key>
+		<string>Akira Kurosawa</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Full Metal Jacket</string>
+		<key>director</key>
+		<string>Stanley Kubrick</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Amadeus</string>
+		<key>director</key>
+		<string>Milos Forman</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Ladri di biciclette</string>
+		<key>director</key>
+		<string>Vittorio De Sica</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Singin' in the Rain</string>
+		<key>director</key>
+		<string>Stanley Donen</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Some Like It Hot</string>
+		<key>director</key>
+		<string>Billy Wilder</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Raging Bull</string>
+		<key>director</key>
+		<string>Martin Scorsese</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>All About Eve</string>
+		<key>director</key>
+		<string>Joseph L. Mankiewicz</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Braveheart</string>
+		<key>director</key>
+		<string>Mel Gibson</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Metropolis</string>
+		<key>director</key>
+		<string>Fritz Lang</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Oldeuboi</string>
+		<key>director</key>
+		<string>Chan-wook Park</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>2001: A Space Odyssey</string>
+		<key>director</key>
+		<string>Stanley Kubrick</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Bridge on the River Kwai</string>
+		<key>director</key>
+		<string>David Lean</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Apartment</string>
+		<key>director</key>
+		<string>Billy Wilder</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>El laberinto del fauno</string>
+		<key>director</key>
+		<string>Guillermo del Toro</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Star Wars: Episode VI - Return of the Jedi</string>
+		<key>director</key>
+		<string>Richard Marquand</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Unforgiven</string>
+		<key>director</key>
+		<string>Clint Eastwood</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Sting</string>
+		<key>director</key>
+		<string>George Roy Hill</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Der Untergang</string>
+		<key>director</key>
+		<string>Oliver Hirschbiegel</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Mononoke-hime</string>
+		<key>director</key>
+		<string>Hayao Miyazaki</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Indiana Jones and the Last Crusade</string>
+		<key>director</key>
+		<string>Steven Spielberg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Inglourious Basterds</string>
+		<key>director</key>
+		<string>Quentin Tarantino</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Mr. Smith Goes to Washington</string>
+		<key>director</key>
+		<string>Frank Capra</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Lion King</string>
+		<key>director</key>
+		<string>Roger Allers</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Die Hard</string>
+		<key>director</key>
+		<string>John McTiernan</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>On the Waterfront</string>
+		<key>director</key>
+		<string>Elia Kazan</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Up</string>
+		<key>director</key>
+		<string>Pete Docter</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Elephant Man</string>
+		<key>director</key>
+		<string>David Lynch</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Hotaru no haka</string>
+		<key>director</key>
+		<string>Isao Takahata</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Det sjunde inseglet</string>
+		<key>director</key>
+		<string>Ingmar Bergman</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Great Escape</string>
+		<key>director</key>
+		<string>John Sturges</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Maltese Falcon</string>
+		<key>director</key>
+		<string>John Huston</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Gran Torino</string>
+		<key>director</key>
+		<string>Clint Eastwood</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Rebecca</string>
+		<key>director</key>
+		<string>Alfred Hitchcock</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Yôjinbô</string>
+		<key>director</key>
+		<string>Akira Kurosawa</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Batman Begins</string>
+		<key>director</key>
+		<string>Christopher Nolan</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Witness for the Prosecution</string>
+		<key>director</key>
+		<string>Billy Wilder</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Per qualche dollaro in più</string>
+		<key>director</key>
+		<string>Sergio Leone</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Artist</string>
+		<key>director</key>
+		<string>Michel Hazanavicius</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The General</string>
+		<key>director</key>
+		<string>Clyde Bruckman</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Snatch.</string>
+		<key>director</key>
+		<string>Guy Ritchie</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Heat</string>
+		<key>director</key>
+		<string>Michael Mann</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Fargo</string>
+		<key>director</key>
+		<string>Joel Coen</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Blade Runner</string>
+		<key>director</key>
+		<string>Ridley Scott</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Sin City</string>
+		<key>director</key>
+		<string>Frank Miller</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Ran</string>
+		<key>director</key>
+		<string>Akira Kurosawa</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Smultronstället</string>
+		<key>director</key>
+		<string>Ingmar Bergman</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Toy Story</string>
+		<key>director</key>
+		<string>John Lasseter</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Touch of Evil</string>
+		<key>director</key>
+		<string>Orson Welles</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Jaws</string>
+		<key>director</key>
+		<string>Steven Spielberg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Big Lebowski</string>
+		<key>director</key>
+		<string>Joel Coen</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>No Country for Old Men</string>
+		<key>director</key>
+		<string>Ethan Coen</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Hotel Rwanda</string>
+		<key>director</key>
+		<string>Terry George</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Deer Hunter</string>
+		<key>director</key>
+		<string>Michael Cimino</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Black Swan</string>
+		<key>director</key>
+		<string>Darren Aronofsky</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The King's Speech</string>
+		<key>director</key>
+		<string>Tom Hooper</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Cool Hand Luke</string>
+		<key>director</key>
+		<string>Stuart Rosenberg</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Wizard of Oz</string>
+		<key>director</key>
+		<string>Victor Fleming</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Ikiru</string>
+		<key>director</key>
+		<string>Akira Kurosawa</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Sixth Sense</string>
+		<key>director</key>
+		<string>M. Night Shyamalan</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>It Happened One Night</string>
+		<key>director</key>
+		<string>Frank Capra</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Scarface</string>
+		<key>director</key>
+		<string>Brian De Palma</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Strangers on a Train</string>
+		<key>director</key>
+		<string>Alfred Hitchcock</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Annie Hall</string>
+		<key>director</key>
+		<string>Woody Allen</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Kill Bill: Vol. 1</string>
+		<key>director</key>
+		<string>Quentin Tarantino</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Kid</string>
+		<key>director</key>
+		<string>Charles Chaplin</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Le salaire de la peur</string>
+		<key>director</key>
+		<string>Henri-Georges Clouzot</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Warrior</string>
+		<key>director</key>
+		<string>Gavin O'Connor</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>High Noon</string>
+		<key>director</key>
+		<string>Fred Zinnemann</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Platoon</string>
+		<key>director</key>
+		<string>Oliver Stone</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Gold Rush</string>
+		<key>director</key>
+		<string>Charles Chaplin</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Trainspotting</string>
+		<key>director</key>
+		<string>Danny Boyle</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Into the Wild</string>
+		<key>director</key>
+		<string>Sean Penn</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Butch Cassidy and the Sundance Kid</string>
+		<key>director</key>
+		<string>George Roy Hill</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Lock, Stock and Two Smoking Barrels</string>
+		<key>director</key>
+		<string>Guy Ritchie</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Donnie Darko</string>
+		<key>director</key>
+		<string>Richard Kelly</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>El secreto de sus ojos</string>
+		<key>director</key>
+		<string>Juan José Campanella</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Sunrise: A Song of Two Humans</string>
+		<key>director</key>
+		<string>F.W. Murnau</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Grapes of Wrath</string>
+		<key>director</key>
+		<string>John Ford</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Notorious</string>
+		<key>director</key>
+		<string>Alfred Hitchcock</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Gone with the Wind</string>
+		<key>director</key>
+		<string>Victor Fleming</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Thing</string>
+		<key>director</key>
+		<string>John Carpenter</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Million Dollar Baby</string>
+		<key>director</key>
+		<string>Clint Eastwood</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Slumdog Millionaire</string>
+		<key>director</key>
+		<string>Danny Boyle</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Casino</string>
+		<key>director</key>
+		<string>Martin Scorsese</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>There Will Be Blood</string>
+		<key>director</key>
+		<string>Paul Thomas Anderson</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Life of Brian</string>
+		<key>director</key>
+		<string>Terry Jones</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Amores perros</string>
+		<key>director</key>
+		<string>Alejandro González Iñárritu</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Les diaboliques</string>
+		<key>director</key>
+		<string>Henri-Georges Clouzot</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Ben-Hur</string>
+		<key>director</key>
+		<string>William Wyler</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Groundhog Day</string>
+		<key>director</key>
+		<string>Harold Ramis</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Finding Nemo</string>
+		<key>director</key>
+		<string>Andrew Stanton</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Tonari no Totoro</string>
+		<key>director</key>
+		<string>Hayao Miyazaki</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>How to Train Your Dragon</string>
+		<key>director</key>
+		<string>Dean DeBlois</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Terminator</string>
+		<key>director</key>
+		<string>James Cameron</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Big Sleep</string>
+		<key>director</key>
+		<string>Howard Hawks</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Best Years of Our Lives</string>
+		<key>director</key>
+		<string>William Wyler</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>V for Vendetta</string>
+		<key>director</key>
+		<string>James McTeigue</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Graduate</string>
+		<key>director</key>
+		<string>Mike Nichols</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Stand by Me</string>
+		<key>director</key>
+		<string>Rob Reiner</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Good Will Hunting</string>
+		<key>director</key>
+		<string>Gus Van Sant</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Twelve Monkeys</string>
+		<key>director</key>
+		<string>Terry Gilliam</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Dog Day Afternoon</string>
+		<key>director</key>
+		<string>Sidney Lumet</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Judgment at Nuremberg</string>
+		<key>director</key>
+		<string>Stanley Kramer</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Bourne Ultimatum</string>
+		<key>director</key>
+		<string>Paul Greengrass</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Manchurian Candidate</string>
+		<key>director</key>
+		<string>John Frankenheimer</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Network</string>
+		<key>director</key>
+		<string>Sidney Lumet</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>District 9</string>
+		<key>director</key>
+		<string>Neill Blomkamp</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Night of the Hunter</string>
+		<key>director</key>
+		<string>Charles Laughton</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Mary and Max</string>
+		<key>director</key>
+		<string>Adam Elliot</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Les quatre cents coups</string>
+		<key>director</key>
+		<string>François Truffaut</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Gandhi</string>
+		<key>director</key>
+		<string>Richard Attenborough</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Persona</string>
+		<key>director</key>
+		<string>Ingmar Bergman</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>La battaglia di Algeri</string>
+		<key>director</key>
+		<string>Gillo Pontecorvo</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Dial M for Murder</string>
+		<key>director</key>
+		<string>Alfred Hitchcock</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>8½</string>
+		<key>director</key>
+		<string>Federico Fellini</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Princess Bride</string>
+		<key>director</key>
+		<string>Rob Reiner</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Killing</string>
+		<key>director</key>
+		<string>Stanley Kubrick</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Seppuku</string>
+		<key>director</key>
+		<string>Masaki Kobayashi</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>La strada</string>
+		<key>director</key>
+		<string>Federico Fellini</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Wrestler</string>
+		<key>director</key>
+		<string>Darren Aronofsky</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Hustler</string>
+		<key>director</key>
+		<string>Robert Rossen</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Ratatouille</string>
+		<key>director</key>
+		<string>Brad Bird</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Who's Afraid of Virginia Woolf?</string>
+		<key>director</key>
+		<string>Mike Nichols</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>La passion de Jeanne d'Arc</string>
+		<key>director</key>
+		<string>Carl Theodor Dreyer</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Fanny och Alexander</string>
+		<key>director</key>
+		<string>Ingmar Bergman</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Hauru no ugoku shiro</string>
+		<key>director</key>
+		<string>Hayao Miyazaki</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Harry Potter and the Deathly Hallows: Part 2</string>
+		<key>director</key>
+		<string>David Yates</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Exorcist</string>
+		<key>director</key>
+		<string>William Friedkin</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Sherlock Jr.</string>
+		<key>director</key>
+		<string>Buster Keaton</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Le scaphandre et le papillon</string>
+		<key>director</key>
+		<string>Julian Schnabel</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Wild Bunch</string>
+		<key>director</key>
+		<string>Sam Peckinpah</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Stalag 17</string>
+		<key>director</key>
+		<string>Billy Wilder</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>A Streetcar Named Desire</string>
+		<key>director</key>
+		<string>Elia Kazan</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Barry Lyndon</string>
+		<key>director</key>
+		<string>Stanley Kubrick</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Rocky</string>
+		<key>director</key>
+		<string>John G. Avildsen</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Star Trek</string>
+		<key>director</key>
+		<string>J.J. Abrams</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Kind Hearts and Coronets</string>
+		<key>director</key>
+		<string>Robert Hamer</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>All Quiet on the Western Front</string>
+		<key>director</key>
+		<string>Lewis Milestone</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Intouchables</string>
+		<key>director</key>
+		<string>Olivier Nakache</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Truman Show</string>
+		<key>director</key>
+		<string>Peter Weir</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Le notti di Cabiria</string>
+		<key>director</key>
+		<string>Federico Fellini</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Mou gaan dou</string>
+		<key>director</key>
+		<string>Wai-keung Lau</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>A Beautiful Mind</string>
+		<key>director</key>
+		<string>Ron Howard</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Roman Holiday</string>
+		<key>director</key>
+		<string>William Wyler</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Rope</string>
+		<key>director</key>
+		<string>Alfred Hitchcock</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Rosemary's Baby</string>
+		<key>director</key>
+		<string>Roman Polanski</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Yip Man</string>
+		<key>director</key>
+		<string>Wilson Yip</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Tôkyô monogatari</string>
+		<key>director</key>
+		<string>Yasujirô Ozu</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Mystic River</string>
+		<key>director</key>
+		<string>Clint Eastwood</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Låt den rätte komma in</string>
+		<key>director</key>
+		<string>Tomas Alfredson</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Avatar</string>
+		<key>director</key>
+		<string>James Cameron</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Man Who Shot Liberty Valance</string>
+		<key>director</key>
+		<string>John Ford</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Pirates of the Caribbean: The Curse of the Black Pearl</string>
+		<key>director</key>
+		<string>Gore Verbinski</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Stalker</string>
+		<key>director</key>
+		<string>Andrey Tarkovskiy</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Manhattan</string>
+		<key>director</key>
+		<string>Woody Allen</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Magnolia</string>
+		<key>director</key>
+		<string>Paul Thomas Anderson</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Big Fish</string>
+		<key>director</key>
+		<string>Tim Burton</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Beauty and the Beast</string>
+		<key>director</key>
+		<string>Gary Trousdale</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>The Incredibles</string>
+		<key>director</key>
+		<string>Brad Bird</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Kaze no tani no Naushika</string>
+		<key>director</key>
+		<string>Hayao Miyazaki</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Monsters, Inc.</string>
+		<key>director</key>
+		<string>Pete Docter</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Tropa de Elite 2 - O Inimigo Agora É Outro</string>
+		<key>director</key>
+		<string>José Padilha</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Nosferatu, eine Symphonie des Grauens</string>
+		<key>director</key>
+		<string>F.W. Murnau</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>In Bruges</string>
+		<key>director</key>
+		<string>Martin McDonagh</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Anatomy of a Murder</string>
+		<key>director</key>
+		<string>Otto Preminger</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Drive</string>
+		<key>director</key>
+		<string>Nicolas Winding Refn</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Shutter Island</string>
+		<key>director</key>
+		<string>Martin Scorsese</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Fa yeung nin wa</string>
+		<key>director</key>
+		<string>Kar Wai Wong</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Trois couleurs: Rouge</string>
+		<key>director</key>
+		<string>Krzysztof Kieslowski</string>
+	</dict>
+</array>
+</plist>
