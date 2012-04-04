@@ -145,6 +145,7 @@
         if (userLabel == nil) {
             CGRect userLabelRect = CGRectMake(userLabelX, userLabelY, 30, 30);
             userLabel = [[UIImageView alloc] initWithFrame:userLabelRect];
+            [userLabel setTag:1001];
             [cell.contentView addSubview:userLabel];   
         }
         if ([entity.owner isEqual:@"A"]) {

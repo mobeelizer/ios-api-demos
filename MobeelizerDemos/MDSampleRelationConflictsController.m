@@ -73,7 +73,7 @@
 - (void)newClicked:(id)sender {
     MobeelizerCriteriaBuilder *ordersCriteria = [[Mobeelizer database] find:[MDMGraphsConflictsOrderEntity class]];
     ordersCriteria = [ordersCriteria add:[MobeelizerCriterion ownerEq:self.user]];
-    NSString* orderName = [NSString stringWithFormat:@"Order %@/%03d", self.user, ([ordersCriteria count] + 1)];
+    NSString* orderName = [NSString stringWithFormat:@"%@/%03d", self.user, ([ordersCriteria count] + 1)];
     MDMGraphsConflictsOrderEntity* order = [[MDMGraphsConflictsOrderEntity alloc] initWithName:orderName andStatus:1];
     [[Mobeelizer database] save:order];
     [self insertNewCurrentItems];
@@ -99,7 +99,7 @@
             orderBean = (MDMGraphsConflictsOrderEntity*) conflictItem.entity;
             
             nameLabel = (UILabel*)[cell viewWithTag:1];
-            nameLabel.text = orderBean.name;
+            nameLabel.text = [NSString stringWithFormat:@"Order %@", orderBean.name];
             
             imageView = (UIImageView*)[cell viewWithTag:2];
             imageView.image = [statusImages objectAtIndex:(orderBean.status - 1)];
