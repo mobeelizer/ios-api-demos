@@ -27,7 +27,7 @@
 }
 
 - (NSString*) helpPage {
-    return @"MDSimpleSyncHelp";
+    return @"MDSampleSimpleHelp";
 }
 
 - (NSArray*)getItemsList {
