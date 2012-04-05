@@ -1,3 +1,23 @@
+// 
+// Mobeelizer.h
+// 
+// Copyright (C) 2012 Mobeelizer Ltd. All Rights Reserved.
+//
+// Mobeelizer SDK is free software; you can redistribute it and/or modify it 
+// under the terms of the GNU Affero General Public License as published by 
+// the Free Software Foundation; either version 3 of the License, or (at your
+// option) any later version.
+//
+// This program is distributed in the hope that it will be useful, but WITHOUT
+// ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or 
+// FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License
+// for more details.
+//
+// You should have received a copy of the GNU Affero General Public License 
+// along with this program; if not, write to the Free Software Foundation, Inc., 
+// 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+// 
+
 #import <Foundation/Foundation.h>
 
 @class MobeelizerDatabase;
@@ -28,6 +48,60 @@ typedef enum {
     MobeelizerCredentialGroup,
     MobeelizerCredentialAll
 } MobeelizerCredential;
+
+/**
+ * Callback used to notify when the async synchronization is finished.
+ */
+
+@protocol MobeelizerSyncCallback <NSObject>
+
+/**
+ * Method invoked when the synchronization is finished.
+ * 
+ * The possible values of sync status:
+ *
+ * - MobeelizerSyncStatusNone - Sync has not been executed in the existing user session.
+ * - MobeelizerSyncStatusStarted - Sync is in progress.  The file with local changes is being prepared.
+ * - MobeelizerSyncStatusFileCreated - Sync is in progress. The file with local changes has been prepared and now is being transmitted to the cloud.
+ * - MobeelizerSyncStatusTaskCreated - Sync is in progress. The file with local changes has been transmitted to the cloud. Waiting for the cloud to finish processing sync.
+ * - MobeelizerSyncStatusTaskPerformed - Sync is in progress. The file with cloud changes has been prepared and now is being transmitted to the device.
+ * - MobeelizerSyncStatusFileReceived - Sync is in progress. The file with cloud changes has been transmitted to the device cloud and now is being inserted into local database.
+ * - MobeelizerSyncStatusFinishedWithSuccess - Sync has been finished successfully.
+ * - MobeelizerSyncStatusFinishedWithFailure - Sync has not been finished successfully. Look for the explanation in the application logs.
+ *
+ * @param status The sync status.
+ * @see [Mobeelizer syncWithCallback:]
+ * @see [Mobeelizer syncAllWithCallback:] 
+ */
+- (void)onSyncFinished:(MobeelizerSyncStatus)status;
+
+@end
+
+/**
+ * Callback used to notify when the async login is finished.
+ */
+
+@protocol MobeelizerLoginCallback <NSObject>
+
+/**
+ * Method invoked when the login is finished.
+ * 
+ * The possible values of login status:
+ *
+ * - MobeelizerLoginStatusOk - The user session has been successfully created.
+ * - MobeelizerLoginStatusAuthenticationFailure - Login, password and instance do not match to any existing users.
+ * - MobeelizerLoginStatusConnectionFailure - Connection error. Look for the explanation in the application logs.
+ * - MobeelizerLoginStatusMissingConnectionFailure - Missing connection. First login requires active Internet connection.
+ * - MobeelizerLoginStatusOtherFailure - Unknown error. Look for the explanation in the instance logs and the application logs.
+ *
+ * @param status The login status.
+ * @see [Mobeelizer loginToInstance:withUser:andPassword:withCallback:]
+ * @see [Mobeelizer loginUser:andPassword:withCallback:]
+ */
+
+- (void)onLoginFinished:(MobeelizerSyncStatus)status;
+
+@end
 
 /**
  * Protocol for sync status change listeners.
@@ -80,10 +154,22 @@ typedef enum {
 /// @name User Session
 ///---------------------------------------------------------------------------------------
 
+
 /**
  * Create a user session for the given login, password and instance.
  *
- * The possible values:
+ * @param instance Instance's name.
+ * @param user User.
+ * @param password Password.
+ * @param callback Callback. 
+ * @see MobeelizerLoginCallback
+ */
++ (void)loginToInstance:(NSString *)instance withUser:(NSString *)user andPassword:(NSString *)password withCallback:(id<MobeelizerLoginCallback>)callback;
+
+/**
+ * Create a user session for the given login, password and instance. This version of method is synchronous and lock the invoker thread. Do not call this method in UI thread.
+ *
+ * The possible values of login status:
  *
  * - MobeelizerLoginStatusOk - The user session has been successfully created.
  * - MobeelizerLoginStatusAuthenticationFailure - Login, password and instance do not match to any existing users.
@@ -101,7 +187,18 @@ typedef enum {
 /**
  * Create a user session for the given login, password and instance equal to the mode ("test" or "production").
  *
- * The possible values:
+ * @param user User.
+ * @param password Password.
+ * @param callback Callback.
+ * @see loginToInstance:withUser:andPassword:withCallback:
+ * @see MobeelizerLoginCallback
+ */
++ (void)loginUser:(NSString *)user andPassword:(NSString *)password withCallback:(id<MobeelizerLoginCallback>)callback;
+
+/**
+ * Create a user session for the given login, password and instance equal to the mode ("test" or "production"). This version of method is synchronous and lock the invoker thread. Do not call this method in UI thread.
+ *
+ * The possible values of login status:
  *
  * - MobeelizerLoginStatusOk - The user session has been successfully created.
  * - MobeelizerLoginStatusAuthenticationFailure - Login, password and instance do not match to any existing users.
@@ -145,33 +242,53 @@ typedef enum {
 ///---------------------------------------------------------------------------------------
 
 /**
- * Start a differential sync.
+ * Start a differential sync. This version of method is synchronous and lock the invoker thread. Do not call this method in UI thread.
+ *
+ * The possible values of sync status:
+ *
+ * - MobeelizerSyncStatusFinishedWithSuccess - Sync has been finished successfully.
+ * - MobeelizerSyncStatusFinishedWithFailure - Sync has not been finished successfully. Look for the explanation in the application logs.
+ *
+ * @return Sync status.
+ * @see syncWithCallback:
  */
-+ (void)sync;
++ (MobeelizerSyncStatus)sync;
 
 /**
  * Start a differential sync and wait until it finishes.
  *
+ * @param callback Callback.
+ * @see MobeelizerSyncCallback
  * @see sync
  */
-+ (void)syncAndWait;
++ (void)syncWithCallback:(id<MobeelizerSyncCallback>)callback;
 
 /**
- * Start a full sync.
+ * Start a full sync. This version of method is synchronous and lock the invoker thread. Do not call this method in UI thread.
+ *
+ * The possible values of sync status:
+ *
+ * - MobeelizerSyncStatusFinishedWithSuccess - Sync has been finished successfully.
+ * - MobeelizerSyncStatusFinishedWithFailure - Sync has not been finished successfully. Look for the explanation in the application logs.
+ *
+ * @return Sync status. 
+ * @see syncAllWithCallback:
  */
-+ (void)syncAll;
++ (MobeelizerSyncStatus)syncAll;
 
 /**
  * Start a full sync and wait until it finishes.
  *
+ * @param callback Callback.
+ * @see MobeelizerSyncCallback
  * @see syncAll
  */
-+ (void)syncAllAndWait;
++ (void)syncAllWithCallback:(id<MobeelizerSyncCallback>)callback;
 
 /**
  * Check and return the status of current sync.
  *
- * The possible values:
+ * The possible values of sync status:
  *
  * - MobeelizerSyncStatusNone - Sync has not been executed in the existing user session.
  * - MobeelizerSyncStatusStarted - Sync is in progress.  The file with local changes is being prepared.

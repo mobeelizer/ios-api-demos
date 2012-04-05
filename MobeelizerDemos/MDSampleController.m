@@ -249,7 +249,7 @@
             [oldObjects setObject:item forKey:[item valueForKey:@"guid"]];
         }
         
-        [Mobeelizer syncAndWait];
+        [Mobeelizer sync];
         
         NSArray *newItems = [self getItemsList];
         NSMutableDictionary* newObjects = [[NSMutableDictionary alloc] init];
