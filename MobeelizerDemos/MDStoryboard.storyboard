@@ -677,7 +677,7 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="372"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" id="NPq-yP-Jab">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="landscape_03.jpg" id="NPq-yP-Jab">
                                 <rect key="frame" x="0.0" y="26" width="320" height="320"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
@@ -1142,6 +1142,7 @@
         <image name="button_blue@2x.png" width="22" height="74"/>
         <image name="button_red@2x.png" width="22" height="74"/>
         <image name="help_switchUser.png" width="186" height="72"/>
+        <image name="landscape_03.jpg" width="640" height="640"/>
         <image name="logo_text.png" width="650" height="122"/>
         <image name="status_1.png" width="64" height="64"/>
         <image name="status_2.png" width="64" height="64"/>
