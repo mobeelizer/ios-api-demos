@@ -23,7 +23,7 @@
                                         <rect key="frame" x="20" y="116" width="280" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal" title="Create" backgroundImage="doneButton.png">
+                                        <state key="normal" title="Create" backgroundImage="button_blue@2x.png">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -38,7 +38,7 @@
                                         <rect key="frame" x="164" y="197" width="136" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal" title="Join" backgroundImage="doneButton.png">
+                                        <state key="normal" title="Join" backgroundImage="button_blue@2x.png">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -139,7 +139,7 @@
                                 <rect key="frame" x="56" y="284" width="209" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Explore" backgroundImage="doneButton.png">
+                                <state key="normal" title="Explore" backgroundImage="button_blue@2x.png">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -601,13 +601,13 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Now it's time for you to code&amp;play with mobeelizer by yourself." id="5Uo-7T-63F">
-                                <rect key="frame" x="0.0" y="163" width="320" height="85"/>
+                                <rect key="frame" x="0.0" y="164" width="320" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Visit mobeelizer.com/getting_started for more info." id="ev3-D6-Yxa">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Visit mobeelizer.com for more info." id="ev3-D6-Yxa">
                                 <rect key="frame" x="0.0" y="228" width="320" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -682,7 +682,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="Uhe-cr-Wbn"/>
                     <connections>
@@ -1115,7 +1115,7 @@
                                 <rect key="frame" x="41" y="41" width="239" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Delete order position">
+                                <state key="normal" title="Delete order position" backgroundImage="button_red@2x.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1139,7 +1139,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="doneButton.png" width="11" height="37"/>
+        <image name="button_blue@2x.png" width="22" height="74"/>
+        <image name="button_red@2x.png" width="22" height="74"/>
         <image name="help_switchUser.png" width="186" height="72"/>
         <image name="logo_text.png" width="650" height="122"/>
         <image name="status_1.png" width="64" height="64"/>
@@ -1230,6 +1231,6 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="bJ2-zD-i20"/>
+        <segue reference="g9J-Zh-siH"/>
     </inferredMetricsTieBreakers>
 </document>
