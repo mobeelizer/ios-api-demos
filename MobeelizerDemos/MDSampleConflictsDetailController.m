@@ -21,6 +21,7 @@
 @interface MDSampleConflictsDetailController() {
 @private
     UIImage *starImage;
+    int imageSize;
 }
 @end
 
@@ -31,7 +32,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    starImage = [UIImage imageNamed:@"star.png"];
+    starImage = [UIImage imageNamed:@"star_40.png"];
+    imageSize = 20;
     self.navigationItem.title = self.entity.title;
 }
 
@@ -48,12 +50,12 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell* cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil];
-    CGFloat width = starImage.size.width * (indexPath.row + 1);
-    CGRect rect = CGRectMake((cell.bounds.size.width-width)/2, (cell.bounds.size.height-starImage.size.height)/2, width, starImage.size.height);
+    CGFloat width = imageSize * (indexPath.row + 1);
+    CGRect rect = CGRectMake((cell.bounds.size.width-width)/2, (cell.bounds.size.height-imageSize)/2, width, imageSize);
     UIView* starsView = [[UIView alloc] initWithFrame:rect];
     for (NSInteger i=0; i<indexPath.row+1; i++) {
         UIImageView *starView = [[UIImageView alloc] initWithImage:starImage];
-        starView.frame = CGRectMake(starImage.size.width*i, 0, starImage.size.width, starImage.size.height);
+        starView.frame = CGRectMake(imageSize*i, 0, imageSize, imageSize);
         [starsView addSubview:starView];
     }
     [cell addSubview:starsView];

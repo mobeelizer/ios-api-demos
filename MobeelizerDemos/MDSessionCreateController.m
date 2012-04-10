@@ -40,13 +40,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    UIImage *buttonImageNormal = [UIImage imageNamed:@"doneButton.png"];
+    UIImage *buttonImageNormal = [UIImage imageNamed:@"button_blue.png"];
     UIImage *stretchableButtonImageNormal = [buttonImageNormal stretchableImageWithLeftCapWidth:5 topCapHeight:0]; 
     
-    UIImage *buttonImageHighlight = [UIImage imageNamed:@"doneButton_dark.png"];
+    UIImage *buttonImageHighlight = [UIImage imageNamed:@"button_blue_dark.png"];
     UIImage *stretchableButtonImageHighlight = [buttonImageHighlight stretchableImageWithLeftCapWidth:5 topCapHeight:0]; 
     
-    UIImage *buttonImageDisabled = [UIImage imageNamed:@"doneButton_grey.png"];
+    UIImage *buttonImageDisabled = [UIImage imageNamed:@"button_grey.png"];
     UIImage *stretchableButtonImageDisabled = [buttonImageDisabled stretchableImageWithLeftCapWidth:5 topCapHeight:0]; 
     
     [createButton setBackgroundImage:stretchableButtonImageNormal forState:UIControlStateNormal];

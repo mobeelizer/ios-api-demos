@@ -23,6 +23,7 @@
 @interface MDSampleConflictsController() {
 @private
     UIImage *starImage;
+    int imageSize;
 }
 @end
 
@@ -38,7 +39,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    starImage = [UIImage imageNamed:@"star_small.png"];
+    starImage = [UIImage imageNamed:@"star_40.png"];
+    
+    CGSize size = CGSizeMake(20, 20);
+    UIGraphicsBeginImageContext(size);
+    [starImage drawInRect:CGRectMake(0, 0, size.width, size.height)];
+    starImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    imageSize = 10;
 }
 
 - (void)viewDidUnload {
@@ -75,7 +84,7 @@
     CGFloat offset = (5-conflictsItem.score) * 5;
     for (NSInteger i=0; i<conflictsItem.score; i++) {
         UIImageView *starView = [[UIImageView alloc] initWithImage:starImage];
-        starView.frame = CGRectMake(offset + (starImage.size.width*i), 0, starImage.size.width, starImage.size.height);
+        starView.frame = CGRectMake(offset + (imageSize*i), 0, imageSize, imageSize);
         [scoreView addSubview:starView];
     }
     

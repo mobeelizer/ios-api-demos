@@ -29,10 +29,10 @@
     [super viewDidLoad];
     [sessionNumberLabel setText:sessionNumber];
     
-    UIImage *buttonImageNormal = [UIImage imageNamed:@"doneButton.png"];
+    UIImage *buttonImageNormal = [UIImage imageNamed:@"button_blue.png"];
     UIImage *stretchableButtonImageNormal = [buttonImageNormal stretchableImageWithLeftCapWidth:5 topCapHeight:0]; 
     
-    UIImage *buttonImageHighlight = [UIImage imageNamed:@"doneButton_dark.png"];
+    UIImage *buttonImageHighlight = [UIImage imageNamed:@"button_blue_dark.png"];
     UIImage *stretchableButtonImageHighlight = [buttonImageHighlight stretchableImageWithLeftCapWidth:5 topCapHeight:0]; 
 
     [exploreButton setBackgroundImage:stretchableButtonImageNormal forState:UIControlStateNormal];

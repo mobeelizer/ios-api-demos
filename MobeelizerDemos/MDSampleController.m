@@ -188,8 +188,11 @@
 
 - (void)helpClicked:(id) sender {
     MDSampleHelpController* view = [[MDSampleHelpController alloc] initWithNibName:[self helpPage] bundle:nil];
-    view.modalTransitionStyle = UIModalTransitionStylePartialCurl;
+//    view.modalTransitionStyle = UIModalTransitionStylePartialCurl;
+    view.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
     [self presentModalViewController:view animated:YES];
+//    [self presentViewController:view animated:YES completion:nil];
+   // [ self 
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {

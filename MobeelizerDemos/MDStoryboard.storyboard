@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11D50b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="y4l-RX-CYs">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11D50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="y4l-RX-CYs">
     <dependencies>
         <deployment defaultVersion="1296" identifier="iOS"/>
         <development defaultVersion="4200" identifier="xcode"/>
@@ -79,8 +79,8 @@
                                     <action selector="backgroundTap:" destination="H7x-qT-JAS" eventType="touchDown" id="03q-Is-1on"/>
                                 </connections>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="center" image="mobeelizer_logo_1.png" id="pIF-bY-9TW">
-                                <rect key="frame" x="0.0" y="6" width="320" height="79"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="logo_text.png" id="pIF-bY-9TW">
+                                <rect key="frame" x="14" y="8" width="292" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Please wait..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="RYY-VC-txD">
@@ -135,10 +135,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="center" image="mobeelizer_logo_1.png" id="UB8-8g-s7M">
-                                <rect key="frame" x="0.0" y="30" width="320" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="onZ-tP-Pm9">
                                 <rect key="frame" x="56" y="284" width="209" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -161,6 +157,10 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="logo_text.png" id="mXP-ax-GUa">
+                                <rect key="frame" x="14" y="8" width="292" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -210,8 +210,8 @@
                                             <rect key="frame" x="10" y="1" width="300" height="59"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="mobeelizer_logo_1.png" id="LaG-xe-Bau">
-                                                    <rect key="frame" x="20" y="0.0" width="260" height="59"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="logo_text.png" id="LaG-xe-Bau">
+                                                    <rect key="frame" x="10" y="0.0" width="280" height="59"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                             </subviews>
@@ -483,35 +483,39 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="To connect other device to this session insert code:" id="5tP-UQ-zJc">
-                                <rect key="frame" x="0.0" y="3" width="320" height="54"/>
+                                <rect key="frame" x="0.0" y="92" width="320" height="54"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Remember that on each connected device you can be logged as one of two users. To switch user simply press top right button." id="DiP-o5-C1A">
-                                <rect key="frame" x="0.0" y="134" width="320" height="75"/>
+                                <rect key="frame" x="0.0" y="223" width="320" height="75"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="on startup screen" id="3C0-FZ-XJK">
-                                <rect key="frame" x="0.0" y="76" width="320" height="37"/>
+                                <rect key="frame" x="0.0" y="165" width="320" height="37"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="1234" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="qVN-ti-Sha">
-                                <rect key="frame" x="85" y="32" width="151" height="64"/>
+                                <rect key="frame" x="85" y="121" width="151" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="center" image="switchButtonHelp.png" id="Ez8-fC-ZOl">
-                                <rect key="frame" x="86" y="203" width="149" height="45"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="logo_text.png" id="PE1-dF-bda">
+                                <rect key="frame" x="14" y="0.0" width="292" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="help_switchUser.png" id="S0g-4A-y6m">
+                                <rect key="frame" x="0.0" y="292" width="320" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -535,23 +539,41 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="372"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="You don't need to worry about synchronizing data between your mobile apps and the backend part. We will do it, automatically." id="RAd-kr-sng">
-                                <rect key="frame" x="0.0" y="85" width="320" height="108"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" id="RAd-kr-sng">
+                                <rect key="frame" x="0.0" y="69" width="320" height="132"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Mobeelizer is a Synchronisation-as-a-Service for mobile developers. We strive to make it ridiculously easy to get synchronisation for mobile apps up and running, so you can focus on creating mobile apps, without worrying about data exchange.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="For more informations see our page: http://www.mobeelizer.com/" id="Fmq-cT-skB">
-                                <rect key="frame" x="0.0" y="166" width="320" height="108"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" id="e1d-YT-Wmy">
+                                <rect key="frame" x="0.0" y="184" width="320" height="67"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">When using Mobeelizer, we automatically take care about the backend, configuration and complicated aspect of synchronisation conflicts.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Visit mobeelizer.com for more info." id="vPn-bO-LY5">
+                                <rect key="frame" x="0.0" y="244" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" image="mobeelizer_logo_1.png" id="vv0-El-2pW">
-                                <rect key="frame" x="0.0" y="7" width="320" height="61"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" id="3ZJ-GO-FrT">
+                                <rect key="frame" x="0.0" y="270" width="320" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">This app contains examples of using mobeelizer in different scenarios. You can see how to sync data, binary files or how to handle conflicts. It's only a small possibilities what mobeelizer can do for you. So have fun!</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="logo_text.png" id="JWN-XS-Yh6">
+                                <rect key="frame" x="14" y="0.0" width="292" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -571,14 +593,32 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="372"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="For more informations see our page: http://www.mobeelizer.com/" id="EcE-Sd-TPp">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="372"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="So you've seen how revolutionary mobeelizer is and what Synchronization-as-a-Service means for your app." id="LXs-ps-raL">
+                                <rect key="frame" x="0.0" y="89" width="320" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Now it's time for you to code&amp;play with mobeelizer by yourself." id="5Uo-7T-63F">
+                                <rect key="frame" x="0.0" y="163" width="320" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Visit mobeelizer.com/getting_started for more info." id="ev3-D6-Yxa">
+                                <rect key="frame" x="0.0" y="228" width="320" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="logo_text.png" id="fzv-HX-WYX">
+                                <rect key="frame" x="14" y="0.0" width="292" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -1100,14 +1140,90 @@
     </scenes>
     <resources>
         <image name="doneButton.png" width="11" height="37"/>
-        <image name="mobeelizer_logo_1.png" width="254" height="50"/>
+        <image name="help_switchUser.png" width="186" height="72"/>
+        <image name="logo_text.png" width="650" height="122"/>
         <image name="status_1.png" width="64" height="64"/>
         <image name="status_2.png" width="64" height="64"/>
         <image name="status_3.png" width="64" height="64"/>
         <image name="status_4.png" width="64" height="64"/>
         <image name="status_5.png" width="64" height="64"/>
-        <image name="switchButtonHelp.png" width="136" height="31"/>
     </resources>
+    <classes>
+        <class className="MDConnectDeviceController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MDConnectDeviceController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="sessionNumberLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="MDSampleConflictsController" superclassName="MDSampleController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MDSampleConflictsController.h"/>
+        </class>
+        <class className="MDSampleConflictsDetailController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MDSampleConflictsDetailController.h"/>
+        </class>
+        <class className="MDSampleController" superclassName="MDUserContextController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MDSampleController.h"/>
+        </class>
+        <class className="MDSampleFilesController" superclassName="MDSampleController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MDSampleFilesController.h"/>
+        </class>
+        <class className="MDSampleFilesDetailController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MDSampleFilesDetailController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+        <class className="MDSampleListController" superclassName="MDUserContextController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MDSampleListController.h"/>
+            <relationships>
+                <relationship kind="action" name="menuButtonClicked:"/>
+                <relationship kind="outlet" name="sessionCodeLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="MDSamplePermissionsController" superclassName="MDSampleController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MDSamplePermissionsController.h"/>
+        </class>
+        <class className="MDSampleRelationConflictsController" superclassName="MDSampleController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MDSampleRelationConflictsController.h"/>
+        </class>
+        <class className="MDSampleRelationConflictsItemDetailController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MDSampleRelationConflictsItemDetailController.h"/>
+            <relationships>
+                <relationship kind="action" name="deleteClicked:"/>
+                <relationship kind="outlet" name="deleteButton" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="MDSampleRelationConflictsOrderDetailController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MDSampleRelationConflictsOrderDetailController.h"/>
+        </class>
+        <class className="MDSampleSimpleController" superclassName="MDSampleController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MDSampleSimpleController.h"/>
+        </class>
+        <class className="MDSessionCreateController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MDSessionCreateController.h"/>
+            <relationships>
+                <relationship kind="action" name="backgroundTap:"/>
+                <relationship kind="action" name="onCreate:"/>
+                <relationship kind="action" name="onJoin:"/>
+                <relationship kind="action" name="onJoinCodeChanged:"/>
+                <relationship kind="outlet" name="createButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="joinButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="joinCodeInput" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="mainView" candidateClass="UIView"/>
+                <relationship kind="outlet" name="mobeelizerLogo" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+        <class className="MDSessionCreatedController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MDSessionCreatedController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="exploreButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="sessionNumberLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="MDUserContextController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MDUserContextController.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

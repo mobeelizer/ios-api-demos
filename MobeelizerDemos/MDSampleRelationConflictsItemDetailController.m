@@ -27,10 +27,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title = self.entity.title;
-    UIImage *buttonImageNormal = [UIImage imageNamed:@"doneButton_red.png"];
+    UIImage *buttonImageNormal = [UIImage imageNamed:@"button_red.png"];
     UIImage *stretchableButtonImageNormal = [buttonImageNormal stretchableImageWithLeftCapWidth:5 topCapHeight:0]; 
     
-    UIImage *buttonImageHighlight = [UIImage imageNamed:@"doneButton_red_dark.png"];
+    UIImage *buttonImageHighlight = [UIImage imageNamed:@"button_red_dark.png"];
     UIImage *stretchableButtonImageHighlight = [buttonImageHighlight stretchableImageWithLeftCapWidth:5 topCapHeight:0]; 
     
     [self.deleteButton setBackgroundImage:stretchableButtonImageNormal forState:UIControlStateNormal];
