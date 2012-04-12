@@ -119,6 +119,7 @@
 						<string key="NSFrame">{{0, 347}, {320, 109}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<reference key="IBUIBackgroundColor" ref="418264944"/>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -126,7 +127,7 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<bool key="IBUIScrollEnabled">NO</bool>
 						<bool key="IBUIEditable">NO</bool>
-						<string key="IBUIText">And.. don't worry anymore. No data is lost! Your record is in conflict state, but it's easy to resolve it - although not it this demo…</string>
+						<string key="IBUIText">And... don't worry anymore. No data is lost! Your record is in conflict state, but it's easy to resolve it - although not it this demo…</string>
 						<object class="IBUITextInputTraits" key="IBUITextInputTraits">
 							<int key="IBUIAutocapitalizationType">2</int>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
