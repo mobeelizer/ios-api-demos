@@ -233,7 +233,7 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<bool key="IBUIScrollEnabled">NO</bool>
 						<bool key="IBUIEditable">NO</bool>
-						<string key="IBUIText">Now it's your turn! Try to add more records, and exchange them between as many devices and users as you can find...</string>
+						<string key="IBUIText">Now it's your turn! Try to add more records and exchange them between as many devices and users as you can find...</string>
 						<object class="IBUITextInputTraits" key="IBUITextInputTraits">
 							<int key="IBUIAutocapitalizationType">2</int>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
