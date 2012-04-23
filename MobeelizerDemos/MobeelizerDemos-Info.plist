@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>API Demos</string>
+	<string>Mobeelizer</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIcons</key>
@@ -17,7 +17,7 @@
 				<string>Mobeelizer.png</string>
 				<string>MDAppIcon.png</string>
 				<string>Default.png</string>
-				<string>AppIcon.png</string>
+				<string>logo1_114.png</string>
 				<string>Default@2x.png</string>
 			</array>
 			<key>UIPrerenderedIcon</key>
