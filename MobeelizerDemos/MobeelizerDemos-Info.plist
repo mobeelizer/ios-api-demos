@@ -14,11 +14,8 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
-				<string>Mobeelizer.png</string>
-				<string>MDAppIcon.png</string>
-				<string>Default.png</string>
+				<string>logo1_57.png</string>
 				<string>logo1_114.png</string>
-				<string>Default@2x.png</string>
 			</array>
 			<key>UIPrerenderedIcon</key>
 			<true/>

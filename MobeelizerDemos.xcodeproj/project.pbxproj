@@ -11,6 +11,7 @@
 		0942133F152DDBAA0072782A /* help_addButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0942133E152DDBA90072782A /* help_addButton.png */; };
 		09421341152DDD650072782A /* help_syncButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 09421340152DDD640072782A /* help_syncButton.png */; };
 		09421343152DE4880072782A /* help_switchUser.png in Resources */ = {isa = PBXBuildFile; fileRef = 09421342152DE4870072782A /* help_switchUser.png */; };
+		096A1A281546AA5D001B160E /* logo1_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 096A1A271546AA5D001B160E /* logo1_57.png */; };
 		09BED7D31534291F00A2B152 /* star_40.png in Resources */ = {isa = PBXBuildFile; fileRef = 09BED7D21534291F00A2B152 /* star_40.png */; };
 		09BED7DB153431DB00A2B152 /* button_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09BED7DA153431DB00A2B152 /* button_blue@2x.png */; };
 		09BED7DD1534336900A2B152 /* logo_text.png in Resources */ = {isa = PBXBuildFile; fileRef = 09BED7DC1534336900A2B152 /* logo_text.png */; };
@@ -68,7 +69,6 @@
 		C8055B801524AA8700EC43C8 /* MDSampleRelationConflictsController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8055B7B1524AA8700EC43C8 /* MDSampleRelationConflictsController.m */; };
 		C8055B851524AAB600EC43C8 /* application.xml in Resources */ = {isa = PBXBuildFile; fileRef = C8055B831524AAB600EC43C8 /* application.xml */; };
 		C8055B861524AAB600EC43C8 /* Mobeelizer.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8055B841524AAB600EC43C8 /* Mobeelizer.plist */; };
-		C8055BCC1524AC2A00EC43C8 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C8055BCB1524AC2A00EC43C8 /* AppIcon.png */; };
 		C8055BD01524B13C00EC43C8 /* MDSampleRelationConflictsHelp.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8055BCF1524B13C00EC43C8 /* MDSampleRelationConflictsHelp.xib */; };
 		C8055BD21524B15C00EC43C8 /* MDSampleFilesHelp.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8055BD11524B15B00EC43C8 /* MDSampleFilesHelp.xib */; };
 		C83224041525FA190077DD22 /* MDSampleConflictsHelp.xib in Resources */ = {isa = PBXBuildFile; fileRef = C83224031525FA190077DD22 /* MDSampleConflictsHelp.xib */; };
@@ -92,6 +92,7 @@
 		0942133E152DDBA90072782A /* help_addButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = help_addButton.png; path = images/help_addButton.png; sourceTree = "<group>"; };
 		09421340152DDD640072782A /* help_syncButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = help_syncButton.png; path = images/help_syncButton.png; sourceTree = "<group>"; };
 		09421342152DE4870072782A /* help_switchUser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = help_switchUser.png; path = images/help_switchUser.png; sourceTree = "<group>"; };
+		096A1A271546AA5D001B160E /* logo1_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1_57.png; sourceTree = "<group>"; };
 		09BED7D21534291F00A2B152 /* star_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star_40.png; path = images/star_40.png; sourceTree = "<group>"; };
 		09BED7DA153431DB00A2B152 /* button_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button_blue@2x.png"; path = "images/button_blue@2x.png"; sourceTree = "<group>"; };
 		09BED7DC1534336900A2B152 /* logo_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_text.png; path = images/logo_text.png; sourceTree = "<group>"; };
@@ -176,7 +177,6 @@
 		C8055B7B1524AA8700EC43C8 /* MDSampleRelationConflictsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSampleRelationConflictsController.m; sourceTree = "<group>"; };
 		C8055B831524AAB600EC43C8 /* application.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = application.xml; sourceTree = "<group>"; };
 		C8055B841524AAB600EC43C8 /* Mobeelizer.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Mobeelizer.plist; sourceTree = "<group>"; };
-		C8055BCB1524AC2A00EC43C8 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
 		C8055BCF1524B13C00EC43C8 /* MDSampleRelationConflictsHelp.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDSampleRelationConflictsHelp.xib; sourceTree = "<group>"; };
 		C8055BD11524B15B00EC43C8 /* MDSampleFilesHelp.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDSampleFilesHelp.xib; sourceTree = "<group>"; };
 		C83224031525FA190077DD22 /* MDSampleConflictsHelp.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDSampleConflictsHelp.xib; sourceTree = "<group>"; };
@@ -221,10 +221,10 @@
 		C8055AD71524A4C900EC43C8 = {
 			isa = PBXGroup;
 			children = (
+				096A1A271546AA5D001B160E /* logo1_57.png */,
 				09FD334115457A22002D72E0 /* logo1_114.png */,
 				09421336152DD0550072782A /* Default@2x.png */,
 				C8322455152C4DD80077DD22 /* README.md */,
-				C8055BCB1524AC2A00EC43C8 /* AppIcon.png */,
 				C8055AEC1524A4C900EC43C8 /* MobeelizerDemos */,
 				C8055AE51524A4C900EC43C8 /* Frameworks */,
 				C8055AE31524A4C900EC43C8 /* Products */,
@@ -511,7 +511,6 @@
 				C8055B6B1524AA5200EC43C8 /* MDSamplePermissionsHelp.xib in Resources */,
 				C8055B851524AAB600EC43C8 /* application.xml in Resources */,
 				C8055B861524AAB600EC43C8 /* Mobeelizer.plist in Resources */,
-				C8055BCC1524AC2A00EC43C8 /* AppIcon.png in Resources */,
 				C8055BD01524B13C00EC43C8 /* MDSampleRelationConflictsHelp.xib in Resources */,
 				C8055BD21524B15C00EC43C8 /* MDSampleFilesHelp.xib in Resources */,
 				C83224041525FA190077DD22 /* MDSampleConflictsHelp.xib in Resources */,
@@ -545,6 +544,7 @@
 				09BED7FA15345BD200A2B152 /* landscape_09.jpg in Resources */,
 				09BED7FB15345BD200A2B152 /* landscape_10.jpg in Resources */,
 				09FD334215457A22002D72E0 /* logo1_114.png in Resources */,
+				096A1A281546AA5D001B160E /* logo1_57.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,6 +601,53 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		09FD334415458F08002D72E0 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Michal Nawalany (6L8TW2JVV7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "C300E475-9721-4273-A8C8-AC9B2A18A78A";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AppStore;
+		};
+		09FD334515458F08002D72E0 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mobeelizer sp. z o.o.";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)\"/**",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobeelizerDemos/MobeelizerDemos-Prefix.pch";
+				INFOPLIST_FILE = "MobeelizerDemos/MobeelizerDemos-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/**",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "74074F97-2453-4B8A-ABDB-8D54BE50FAED";
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = AppStore;
+		};
 		C8055AF81524A4C900EC43C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -663,6 +710,8 @@
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -682,6 +731,8 @@
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -694,6 +745,7 @@
 			buildConfigurations = (
 				C8055AF81524A4C900EC43C8 /* Debug */,
 				C8055AF91524A4C900EC43C8 /* Release */,
+				09FD334415458F08002D72E0 /* AppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -703,6 +755,7 @@
 			buildConfigurations = (
 				C8055AFB1524A4C900EC43C8 /* Debug */,
 				C8055AFC1524A4C900EC43C8 /* Release */,
+				09FD334515458F08002D72E0 /* AppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
