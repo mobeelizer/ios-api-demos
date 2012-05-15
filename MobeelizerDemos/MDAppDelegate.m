@@ -18,12 +18,19 @@
 
 #import "MDAppDelegate.h"
 
+@interface MDAppDelegate() {
+    NSData* pushToken;
+}
+@end
+
 @implementation MDAppDelegate
 
 @synthesize window = _window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [Mobeelizer create];
+    [Mobeelizer unregisterForRemoteNotifications];
+    [[UIApplication sharedApplication] registerForRemoteNotificationTypes:UIRemoteNotificationTypeAlert];
     return YES;
 }
 
@@ -31,5 +38,31 @@
     [Mobeelizer destroy];
 }
 
+- (void)application:(UIApplication *)app didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)token {
+    pushToken = token;
+    [Mobeelizer registerForRemoteNotificationsWithDeviceToken:token];
+}
+
+- (void)application:(UIApplication *)app didFailToRegisterForRemoteNotificationsWithError:(NSError *)err {
+    NSLog(@"Error in registration. Error: %@", err);
+
+}
+
+- (void)application:(UIApplication *)app didReceiveRemoteNotification:(NSDictionary *)userInfo {
+    NSLog(@"MESSAGE RECEIVED: %@", userInfo);
+    NSString* messageContent = [[userInfo objectForKey:@"aps"] objectForKey:@"alert"];
+    UIAlertView *message = [[UIAlertView alloc] initWithTitle:@"Push received!"
+                                                    message:messageContent
+                                                    delegate:nil
+                                                    cancelButtonTitle:@"OK"
+                                                    otherButtonTitles:nil];
+    [message show];
+}
+
+- (void) registerForPush {
+    if (pushToken != nil) {
+        [Mobeelizer registerForRemoteNotificationsWithDeviceToken:pushToken];
+    }
+}
 
 @end

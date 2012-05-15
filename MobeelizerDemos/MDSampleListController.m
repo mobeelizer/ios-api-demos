@@ -17,7 +17,7 @@
 // 
 
 #import "MDSampleListController.h"
-#import "MDSampleController.h"
+#import "MDSampleTableController.h"
 #import "MDSessionCreateController.h"
 
 @interface MDSampleListController() {
@@ -67,7 +67,7 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     [super prepareForSegue:segue sender:sender];
     if ([segue.destinationViewController isKindOfClass:MDSampleController.class]) {
-        MDSampleController* controller = segue.destinationViewController;
+        MDSampleTableController* controller = segue.destinationViewController;
         if (! [visitedViews containsObject:[controller name]]) {
             [controller showHelp];
             [visitedViews addObject:[controller name]];

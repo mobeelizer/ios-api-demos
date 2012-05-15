@@ -17,8 +17,8 @@
 // 
 
 #import <UIKit/UIKit.h>
-#import "MDSampleController.h"
+#import "MDSampleTableController.h"
 
-@interface MDSampleSimpleController : MDSampleController
+@interface MDSampleSimpleController : MDSampleTableController
 
 @end

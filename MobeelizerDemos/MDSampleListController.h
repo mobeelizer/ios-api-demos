@@ -17,9 +17,9 @@
 // 
 
 #import <UIKit/UIKit.h>
-#import "MDUserContextController.h"
+#import "MDUserContextTableController.h"
 
-@interface MDSampleListController : MDUserContextController<UIActionSheetDelegate>
+@interface MDSampleListController : MDUserContextTableController<UIActionSheetDelegate>
 - (IBAction)menuButtonClicked:(id)sender;
 @property (weak, nonatomic) IBOutlet UILabel *sessionCodeLabel;
 

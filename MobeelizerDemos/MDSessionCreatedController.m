@@ -18,7 +18,7 @@
 
 #import "MDSessionCreatedController.h"
 #import "MDSampleListController.h"
-#import "MDUserContextController.h"
+#import "MDUserContextTableController.h"
 
 @implementation MDSessionCreatedController
 @synthesize sessionNumberLabel;

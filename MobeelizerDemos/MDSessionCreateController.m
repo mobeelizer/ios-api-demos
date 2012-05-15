@@ -19,8 +19,9 @@
 #import "MDSessionCreateController.h"
 #import "MDSampleListController.h"
 #import "MDSessionCreatedController.h"
-#import "MDUserContextController.h"
+#import "MDUserContextTableController.h"
 #import "MDUtils.h"
+#import "MDAppDelegate.h"
 
 @interface MDSessionCreateController() {
 @private
@@ -115,7 +116,26 @@
     user = USER_A;
     
     dispatch_async(dispatch_get_global_queue(0, 0), ^{
-        NSURL* url = [[NSURL alloc] initWithString:@"http://mobeelizer.elasticbeanstalk.com/app/demos/create"];
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"Mobeelizer" ofType:@"plist"];
+        NSDictionary* mobeelizerProperties = [[NSDictionary alloc] initWithContentsOfFile:path];
+        
+        NSString* baseUrl = nil;
+        NSString* propUrl = [mobeelizerProperties objectForKey:@"url"];
+        BOOL isTest = false;
+        
+        if (propUrl == nil) {
+            baseUrl = @"http://mobeelizer.elasticbeanstalk.com/sync";
+        } else {
+            baseUrl = propUrl;
+        }
+        
+        if ([@"test" isEqualToString:[mobeelizerProperties objectForKey:@"mode"]]) {
+            isTest = true;
+        }
+
+        NSString* urlString = [NSString stringWithFormat:@"%@/demos/create?test=%@", baseUrl, isTest ? @"true" : @"false"];
+        NSURL* url = [[NSURL alloc] initWithString:urlString];
+
         NSError* e = nil;
         BOOL isOk = true;
         
@@ -131,6 +151,8 @@
         dispatch_async(dispatch_get_main_queue(), ^{
             [alert dismissWithClickedButtonIndex:0 animated:YES];
             if (isOk) {
+                MDAppDelegate *appDelegate = (MDAppDelegate *)[[UIApplication sharedApplication] delegate];
+                [appDelegate registerForPush];
                 [self performSegueWithIdentifier:@"createSession" sender:sender];
             } else {
                 alert = [MDUtils showAlertErrorWithText:@"Session couldn't be created.\nPlease try again later"];
@@ -151,6 +173,9 @@
         dispatch_async(dispatch_get_main_queue(), ^{
             [alert dismissWithClickedButtonIndex:0 animated:YES];
             if (isOk) {
+                MDAppDelegate *appDelegate = (MDAppDelegate *)[[UIApplication sharedApplication] delegate];
+                [appDelegate registerForPush];
+                
                 [self performSegueWithIdentifier:@"joinSession" sender:sender];
             } else {
                 alert = [MDUtils showAlertErrorWithText:@"Cannot join session."];

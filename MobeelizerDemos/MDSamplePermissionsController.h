@@ -17,8 +17,8 @@
 // 
 
 #import <Foundation/Foundation.h>
-#import "MDSampleController.h"
+#import "MDSampleTableController.h"
 
-@interface MDSamplePermissionsController : MDSampleController
+@interface MDSamplePermissionsController : MDSampleTableController
 
 @end

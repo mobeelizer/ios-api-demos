@@ -16,9 +16,10 @@
 // the License.
 // 
 
-#import "MDUserContextController.h"
+#import "MDUserContextTableController.h"
+#import "MDAppDelegate.h"
 
-@interface MDUserContextController() {
+@interface MDUserContextTableController() {
 @private
     UIBarButtonItem *userButton;
 }
@@ -26,7 +27,7 @@
 - (void)setUserToView:(UIViewController*) view;
 @end
 
-@implementation MDUserContextController
+@implementation MDUserContextTableController
 @synthesize user;
 @synthesize sessionNumber;
 
@@ -59,6 +60,9 @@
         [self performLogout];
         [MDUtils performLoginAsUser:user onSession:sessionNumber];
         
+        MDAppDelegate *appDelegate = (MDAppDelegate *)[[UIApplication sharedApplication] delegate];
+        [appDelegate registerForPush];
+        
         dispatch_async(dispatch_get_main_queue(), ^{
             [alert dismissWithClickedButtonIndex:0 animated:YES];
             
@@ -88,6 +92,7 @@
 }
 
 - (void) performLogout {
+    [Mobeelizer unregisterForRemoteNotifications];
     [Mobeelizer logout];
 }
 
@@ -108,8 +113,8 @@
 }
 
 - (void)setUserToView:(UIViewController*) view {
-    if ([view isKindOfClass:MDUserContextController.class]) {
-        MDUserContextController* userContextVC = (MDUserContextController*) view;
+    if ([view isKindOfClass:MDUserContextTableController.class]) {
+        MDUserContextTableController* userContextVC = (MDUserContextTableController*) view;
         [userContextVC setUser:user];
     }
 }

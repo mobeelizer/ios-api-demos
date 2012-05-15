@@ -23,4 +23,6 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+- (void) registerForPush;
+
 @end

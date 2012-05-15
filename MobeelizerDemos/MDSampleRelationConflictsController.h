@@ -17,10 +17,10 @@
 // 
 
 #import <Foundation/Foundation.h>
-#import "MDSampleController.h"
+#import "MDSampleTableController.h"
 #import "MDMSyncEntity.h"
 
-@interface MDSampleRelationConflictsController : MDSampleController
+@interface MDSampleRelationConflictsController : MDSampleTableController
 
 @end
 

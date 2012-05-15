@@ -1,5 +1,5 @@
 //
-// MDUserContextController.h
+// MDSampleController.h
 // 
 // Copyright (C) 2012 Mobeelizer Ltd. All Rights Reserved.
 // 
@@ -17,17 +17,14 @@
 // 
 
 #import <UIKit/UIKit.h>
-#import <MobeelizerSDK/MobeelizerSDK.h>
-#import "MDUtils.h"
+#import "MDSampleController.h"
+#import "MDMovie.h"
 
-#define RGB(r, g, b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
+@interface MDSampleTableController : MDSampleController
 
-#define USER_A_COLOR RGB(255, 128, 0)
-#define USER_B_COLOR RGB(0, 128, 0)
+- (UITableViewCell *)dequeueReusableCellWithIdentifier:(NSString*)cellIdentifier;
+- (id)itemAtRow:(NSInteger)row;
+- (void)updateRow:(NSInteger)row withItem:(id)item;
+- (void)insertNewCurrentItems;
 
-@interface MDUserContextController : UITableViewController
-@property (copy, nonatomic) NSString* user;
-@property (copy, nonatomic) NSString* sessionNumber;
-- (void)onUserChange;
-- (void)performLogout;
 @end

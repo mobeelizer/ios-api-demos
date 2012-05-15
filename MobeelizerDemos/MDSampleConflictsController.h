@@ -16,9 +16,9 @@
 // the License.
 // 
 
-#import "MDSampleController.h"
+#import "MDSampleTableController.h"
 #import "MDMConflictsEntity.h"
 
-@interface MDSampleConflictsController : MDSampleController
+@interface MDSampleConflictsController : MDSampleTableController
 
 @end
