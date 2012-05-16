@@ -5,7 +5,7 @@
 	<key>device</key>
 	<string>mobile</string>
 	<key>mode</key>
-	<string>test</string>
+	<string>production</string>
 	<key>developmentRole</key>
 	<string>users-mobile</string>
 	<key>modelPrefix</key>
