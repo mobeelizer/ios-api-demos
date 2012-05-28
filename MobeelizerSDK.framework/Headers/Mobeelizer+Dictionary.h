@@ -1,5 +1,5 @@
 // 
-// MobeelizerSDK.h
+// Mobeelizer+Dictionary.h
 // 
 // Copyright (C) 2012 Mobeelizer Ltd. All Rights Reserved.
 //
@@ -18,19 +18,17 @@
 // 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
 // 
 
-#import <MobeelizerSDK/MobeelizerOrder.h>
-#import <MobeelizerSDK/MobeelizerCriterion.h>
-#import <MobeelizerSDK/MobeelizerDisjunction.h>
-#import <MobeelizerSDK/MobeelizerConjunction.h>
-#import <MobeelizerSDK/MobeelizerFile.h>
-#import <MobeelizerSDK/Mobeelizer.h>
-#import <MobeelizerSDK/Mobeelizer+Dictionary.h>
-#import <MobeelizerSDK/MobeelizerDatabase.h>
-#import <MobeelizerSDK/MobeelizerDatabase+Dictionary.h>
-#import <MobeelizerSDK/MobeelizerError.h>
-#import <MobeelizerSDK/MobeelizerModelCredentials.h>
-#import <MobeelizerSDK/MobeelizerModelDefinition.h>
-#import <MobeelizerSDK/MobeelizerCriteriaBuilder.h>
-#import <MobeelizerSDK/MobeelizerErrors.h>
-#import <MobeelizerSDK/MobeelizerFieldCredentials.h>
-#import <MobeelizerSDK/MobeelizerFieldDefinition.h>
+#import "Mobeelizer.h"
+
+/**
+ * Mobeelizer extension to start with NSDictionary configuration instead of plist one.
+ */
+
+@interface Mobeelizer (Dictionary)
+
+/**
+ * Initializer Mobeelizer with given configuration.
+ */
++ (void)createWithConfiguration:(NSDictionary *)configuration;
+
+@end
