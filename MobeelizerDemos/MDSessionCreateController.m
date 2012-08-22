@@ -124,7 +124,7 @@
         BOOL isTest = false;
         
         if (propUrl == nil) {
-            baseUrl = @"http://mobeelizer.elasticbeanstalk.com/sync";
+            baseUrl = @"https://cloud.mobeelizer.com/sync";
         } else {
             baseUrl = propUrl;
         }
