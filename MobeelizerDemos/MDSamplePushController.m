@@ -27,13 +27,20 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    MobeelizerOperationError *error = nil;
+    
     if (indexPath.section == 0 && indexPath.row == 0) {
-        [Mobeelizer sendRemoteNotification:[NSDictionary dictionaryWithObject:@"iOS device greets all users!" forKey:@"alert"]];        
+        error = [Mobeelizer sendRemoteNotification:[NSDictionary dictionaryWithObject:@"iOS device greets all users!" forKey:@"alert"]];
     } else if (indexPath.section == 1 && indexPath.row == 0) {
-        [Mobeelizer sendRemoteNotification:[NSDictionary dictionaryWithObject:@"iOS device greets user A!" forKey:@"alert"] toUsers: [NSArray arrayWithObject:@"A"]];
+        error = [Mobeelizer sendRemoteNotification:[NSDictionary dictionaryWithObject:@"iOS device greets user A!" forKey:@"alert"] toUsers: [NSArray arrayWithObject:@"A"]];
     } else if (indexPath.section == 1 && indexPath.row == 1) {
-        [Mobeelizer sendRemoteNotification:[NSDictionary dictionaryWithObject:@"iOS device greets user B!" forKey:@"alert"] toUsers: [NSArray arrayWithObject:@"B"]];
+        error = [Mobeelizer sendRemoteNotification:[NSDictionary dictionaryWithObject:@"iOS device greets user B!" forKey:@"alert"] toUsers: [NSArray arrayWithObject:@"B"]];
     }
+    
+    if(error != nil) {
+        NSLog(@"Send remote notification failure: %@ - %@", error.code, error.message);
+    }
+    
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 

@@ -92,7 +92,12 @@
 }
 
 - (void) performLogout {
-    [Mobeelizer unregisterForRemoteNotifications];
+    MobeelizerOperationError *error = [Mobeelizer unregisterForRemoteNotifications];
+    
+    if(error != nil) {
+        NSLog(@"Unregister for remote notification failure: %@ - %@", error.code, error.message);
+    }
+    
     [Mobeelizer logout];
 }
 

@@ -225,7 +225,12 @@
             [oldObjects setObject:item forKey:[item valueForKey:@"guid"]];
         }
         
-        [Mobeelizer sync];
+        MobeelizerOperationError *error = [Mobeelizer sync];
+        
+        if(error != nil) {
+            NSLog(@"Sync failure: %@ - %@", error.code, error.message);
+        }
+        
         
         NSArray *newItems = [self getItemsList];
         NSMutableDictionary* newObjects = [[NSMutableDictionary alloc] init];

@@ -29,7 +29,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [Mobeelizer create];
-    [Mobeelizer unregisterForRemoteNotifications];
+    MobeelizerOperationError *error = [Mobeelizer unregisterForRemoteNotifications];
+    
+    if(error != nil) {
+        NSLog(@"Unregister for remote notification failure: %@ - %@", error.code, error.message);
+    }
+    
     [[UIApplication sharedApplication] registerForRemoteNotificationTypes:UIRemoteNotificationTypeAlert];
     return YES;
 }
@@ -40,7 +45,11 @@
 
 - (void)application:(UIApplication *)app didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)token {
     pushToken = token;
-    [Mobeelizer registerForRemoteNotificationsWithDeviceToken:token];
+    MobeelizerOperationError *error = [Mobeelizer registerForRemoteNotificationsWithDeviceToken:token];
+    
+    if(error != nil) {
+        NSLog(@"Register for remote notification failure: %@ - %@", error.code, error.message);
+    }
 }
 
 - (void)application:(UIApplication *)app didFailToRegisterForRemoteNotificationsWithError:(NSError *)err {
@@ -61,7 +70,11 @@
 
 - (void) registerForPush {
     if (pushToken != nil) {
-        [Mobeelizer registerForRemoteNotificationsWithDeviceToken:pushToken];
+        MobeelizerOperationError *error = [Mobeelizer registerForRemoteNotificationsWithDeviceToken:pushToken];
+        
+        if(error != nil) {
+            NSLog(@"Register for remote notification failure: %@ - %@", error.code, error.message);
+        }
     }
 }
 

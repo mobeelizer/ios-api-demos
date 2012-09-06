@@ -47,8 +47,13 @@
         login = @"B";
         password = @"B9$zGOl6!n";
     }
-    MobeelizerLoginStatus loginStatus = [Mobeelizer loginToInstance:session withUser:login andPassword:password];
-    return loginStatus == MobeelizerLoginStatusOk;
+    MobeelizerOperationError *error = [Mobeelizer loginToInstance:session withUser:login andPassword:password];
+    
+    if(error != nil) {
+        NSLog(@"Joining session failure: %@ - %@", error.code, error.message);
+    }
+    
+    return error == nil;
 }
 
 @end
