@@ -1,5 +1,5 @@
 //
-// MDSampleRelationConflictsItem.m
+// MDSampleRelationsItem.m
 // 
 // Copyright (C) 2012 Mobeelizer Ltd. All Rights Reserved.
 // 
@@ -16,46 +16,46 @@
 // the License.
 // 
 
-#import "MDSampleRelationConflictsItem.h"
+#import "MDSampleRelationsItem.h"
 
-@implementation MDSampleRelationConflictsItem
+@implementation MDSampleRelationsItem
 @synthesize type = _type;
 @synthesize entity = _entity;
 @synthesize relatedEntity = _relatedEntity;
 @synthesize guid = _guid;
 
-- (MDSampleRelationConflictsItem*)initAsOrdertWithEntity:(MDMGraphsConflictsOrderEntity*)entity {
-    self.type = MDSampleRelationConflictsItemTypeOrder;
+- (MDSampleRelationsItem*)initAsOrdertWithEntity:(MDMGraphsConflictsOrderEntity*)entity {
+    self.type = MDSampleRelationsItemTypeOrder;
     self.entity = entity;
     self.guid = entity.guid;
     return self;
 }
 
-- (MDSampleRelationConflictsItem*)initAsItemWithEntity:(MDMGraphsConflictsItemEntity*)entity {
-    self.type = MDSampleRelationConflictsItemTypeItem;
+- (MDSampleRelationsItem*)initAsItemWithEntity:(MDMGraphsConflictsItemEntity*)entity {
+    self.type = MDSampleRelationsItemTypeItem;
     self.entity = entity;
     self.guid = entity.guid;
     return self;
 }
 
-- (MDSampleRelationConflictsItem*)initAsAddItemWithOrderEntity:(MDMGraphsConflictsOrderEntity*)entity {
-    self.type = MDSampleRelationConflictsItemTypeAddItem;
+- (MDSampleRelationsItem*)initAsAddItemWithOrderEntity:(MDMGraphsConflictsOrderEntity*)entity {
+    self.type = MDSampleRelationsItemTypeAddItem;
     self.relatedEntity = entity;
     self.guid = [NSString stringWithFormat:@"add_to_%@", entity.guid];
     return self;
 }
 
 - (NSString *)description {
-    return [NSString stringWithFormat:@"MDRelationConflictItem - %d - %@", self.type, self.guid];
+    return [NSString stringWithFormat:@"MDRelationsItem - %d - %@", self.type, self.guid];
 }
 
 - (BOOL)isEqual:(id)object {
-    if ([object isKindOfClass:[MDSampleRelationConflictsItem class]]) {
-        MDSampleRelationConflictsItem* item = object;
+    if ([object isKindOfClass:[MDSampleRelationsItem class]]) {
+        MDSampleRelationsItem* item = object;
         if (item.type != self.type) {
             return NO;
         }
-        if (self.type == MDSampleRelationConflictsItemTypeAddItem) {
+        if (self.type == MDSampleRelationsItemTypeAddItem) {
             return [item.relatedEntity isEqual:self.relatedEntity];
         } else {
             return [item.entity isEqual:self.entity];

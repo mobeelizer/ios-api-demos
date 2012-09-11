@@ -22,19 +22,19 @@
 #import "MDMGraphsConflictsItemEntity.h"
 
 typedef enum {
-    MDSampleRelationConflictsItemTypeOrder = 0,
-    MDSampleRelationConflictsItemTypeItem,
-    MDSampleRelationConflictsItemTypeAddItem,
-} MDSampleRelationConflictsItemType;
+    MDSampleRelationsItemTypeOrder = 0,
+    MDSampleRelationsItemTypeItem,
+    MDSampleRelationsItemTypeAddItem,
+} MDSampleRelationsItemType;
 
-@interface MDSampleRelationConflictsItem : NSObject
-@property(nonatomic) MDSampleRelationConflictsItemType type;
+@interface MDSampleRelationsItem : NSObject
+@property(nonatomic) MDSampleRelationsItemType type;
 @property(nonatomic, strong) MDMSyncEntity* entity;
 @property(nonatomic, strong) MDMSyncEntity* relatedEntity;
 @property(nonatomic, copy) NSString* guid;
 
-- (MDSampleRelationConflictsItem*)initAsOrdertWithEntity:(MDMGraphsConflictsOrderEntity*)entity;
-- (MDSampleRelationConflictsItem*)initAsItemWithEntity:(MDMGraphsConflictsItemEntity*)entity;
-- (MDSampleRelationConflictsItem*)initAsAddItemWithOrderEntity:(MDMGraphsConflictsOrderEntity*)entity;
+- (MDSampleRelationsItem*)initAsOrdertWithEntity:(MDMGraphsConflictsOrderEntity*)entity;
+- (MDSampleRelationsItem*)initAsItemWithEntity:(MDMGraphsConflictsItemEntity*)entity;
+- (MDSampleRelationsItem*)initAsAddItemWithOrderEntity:(MDMGraphsConflictsOrderEntity*)entity;
 
 @end

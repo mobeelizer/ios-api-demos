@@ -16,10 +16,10 @@
 // the License.
 // 
 
-#import "MDSampleRelationConflictsOrderDetailController.h"
-#import "MDSampleRelationConflictsItem.h"
+#import "MDSampleRelationsOrderDetailController.h"
+#import "MDSampleRelationsItem.h"
 
-@implementation MDSampleRelationConflictsOrderDetailController
+@implementation MDSampleRelationsOrderDetailController
 @synthesize delegate = _delegate;
 @synthesize row = _row;
 @synthesize entity = _entity;
@@ -57,7 +57,7 @@
     
     self.entity.status = indexPath.row + 1;
     [[Mobeelizer database] save:self.entity];
-    MDSampleRelationConflictsItem* newOrderItem = [[MDSampleRelationConflictsItem alloc] initAsOrdertWithEntity:self.entity];
+    MDSampleRelationsItem* newOrderItem = [[MDSampleRelationsItem alloc] initAsOrdertWithEntity:self.entity];
     [self.delegate updateRow:self.row withItem:newOrderItem];
     
     UITableViewCell* newCell = [self.tableView cellForRowAtIndexPath:indexPath];

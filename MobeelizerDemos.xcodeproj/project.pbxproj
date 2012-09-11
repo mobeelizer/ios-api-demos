@@ -67,19 +67,19 @@
 		C8055B611524AA1F00EC43C8 /* MDSampleFilesController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8055B601524AA1F00EC43C8 /* MDSampleFilesController.m */; };
 		C8055B6B1524AA5200EC43C8 /* MDSamplePermissionsHelp.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8055B691524AA5200EC43C8 /* MDSamplePermissionsHelp.xib */; };
 		C8055B721524AA6A00EC43C8 /* MDSampleConflictsController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8055B6F1524AA6A00EC43C8 /* MDSampleConflictsController.m */; };
-		C8055B7E1524AA8700EC43C8 /* MDSampleRelationConflictsItemDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8055B771524AA8700EC43C8 /* MDSampleRelationConflictsItemDetailController.m */; };
-		C8055B7F1524AA8700EC43C8 /* MDSampleRelationConflictsOrderDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8055B791524AA8700EC43C8 /* MDSampleRelationConflictsOrderDetailController.m */; };
-		C8055B801524AA8700EC43C8 /* MDSampleRelationConflictsController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8055B7B1524AA8700EC43C8 /* MDSampleRelationConflictsController.m */; };
-		C8055B851524AAB600EC43C8 /* application.xml in Resources */ = {isa = PBXBuildFile; fileRef = C8055B831524AAB600EC43C8 /* application.xml */; };
+		C8055B7E1524AA8700EC43C8 /* MDSampleRelationsItemDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8055B771524AA8700EC43C8 /* MDSampleRelationsItemDetailController.m */; };
+		C8055B7F1524AA8700EC43C8 /* MDSampleRelationsOrderDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8055B791524AA8700EC43C8 /* MDSampleRelationsOrderDetailController.m */; };
+		C8055B801524AA8700EC43C8 /* MDSampleRelationsController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8055B7B1524AA8700EC43C8 /* MDSampleRelationsController.m */; };
 		C8055B861524AAB600EC43C8 /* Mobeelizer.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8055B841524AAB600EC43C8 /* Mobeelizer.plist */; };
-		C8055BD01524B13C00EC43C8 /* MDSampleRelationConflictsHelp.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8055BCF1524B13C00EC43C8 /* MDSampleRelationConflictsHelp.xib */; };
+		C8055BD01524B13C00EC43C8 /* MDSampleRelationsHelp.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8055BCF1524B13C00EC43C8 /* MDSampleRelationsHelp.xib */; };
 		C8055BD21524B15C00EC43C8 /* MDSampleFilesHelp.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8055BD11524B15B00EC43C8 /* MDSampleFilesHelp.xib */; };
+		C8084E2C15FF41CB00A9CA62 /* application.xml in Resources */ = {isa = PBXBuildFile; fileRef = C8084E2B15FF41CB00A9CA62 /* application.xml */; };
 		C82FAB981563C56000584E51 /* MobeelizerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C82FAB971563C56000584E51 /* MobeelizerSDK.framework */; };
 		C83224041525FA190077DD22 /* MDSampleConflictsHelp.xib in Resources */ = {isa = PBXBuildFile; fileRef = C83224031525FA190077DD22 /* MDSampleConflictsHelp.xib */; };
 		C83224071525FB320077DD22 /* MDSampleFilesDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = C83224061525FB320077DD22 /* MDSampleFilesDetailController.m */; };
 		C832240A1525FB7D0077DD22 /* MDSamplePermissionsController.m in Sources */ = {isa = PBXBuildFile; fileRef = C83224091525FB7D0077DD22 /* MDSamplePermissionsController.m */; };
 		C832240D1525FBEC0077DD22 /* MDSampleConflictsDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = C832240C1525FBEB0077DD22 /* MDSampleConflictsDetailController.m */; };
-		C83224101525FCBF0077DD22 /* MDSampleRelationConflictsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C832240F1525FCBB0077DD22 /* MDSampleRelationConflictsItem.m */; };
+		C83224101525FCBF0077DD22 /* MDSampleRelationsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C832240F1525FCBB0077DD22 /* MDSampleRelationsItem.m */; };
 		C83224491529AED90077DD22 /* status_1.png in Resources */ = {isa = PBXBuildFile; fileRef = C832242B1529AED90077DD22 /* status_1.png */; };
 		C832244A1529AED90077DD22 /* status_2.png in Resources */ = {isa = PBXBuildFile; fileRef = C832242C1529AED90077DD22 /* status_2.png */; };
 		C832244B1529AED90077DD22 /* status_3.png in Resources */ = {isa = PBXBuildFile; fileRef = C832242D1529AED90077DD22 /* status_3.png */; };
@@ -177,16 +177,16 @@
 		C8055B691524AA5200EC43C8 /* MDSamplePermissionsHelp.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDSamplePermissionsHelp.xib; sourceTree = "<group>"; };
 		C8055B6E1524AA6A00EC43C8 /* MDSampleConflictsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSampleConflictsController.h; sourceTree = "<group>"; };
 		C8055B6F1524AA6A00EC43C8 /* MDSampleConflictsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSampleConflictsController.m; sourceTree = "<group>"; };
-		C8055B761524AA8700EC43C8 /* MDSampleRelationConflictsItemDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSampleRelationConflictsItemDetailController.h; sourceTree = "<group>"; };
-		C8055B771524AA8700EC43C8 /* MDSampleRelationConflictsItemDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSampleRelationConflictsItemDetailController.m; sourceTree = "<group>"; };
-		C8055B781524AA8700EC43C8 /* MDSampleRelationConflictsOrderDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSampleRelationConflictsOrderDetailController.h; sourceTree = "<group>"; };
-		C8055B791524AA8700EC43C8 /* MDSampleRelationConflictsOrderDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSampleRelationConflictsOrderDetailController.m; sourceTree = "<group>"; };
-		C8055B7A1524AA8700EC43C8 /* MDSampleRelationConflictsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSampleRelationConflictsController.h; sourceTree = "<group>"; };
-		C8055B7B1524AA8700EC43C8 /* MDSampleRelationConflictsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSampleRelationConflictsController.m; sourceTree = "<group>"; };
-		C8055B831524AAB600EC43C8 /* application.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = application.xml; sourceTree = "<group>"; };
+		C8055B761524AA8700EC43C8 /* MDSampleRelationsItemDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSampleRelationsItemDetailController.h; sourceTree = "<group>"; };
+		C8055B771524AA8700EC43C8 /* MDSampleRelationsItemDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSampleRelationsItemDetailController.m; sourceTree = "<group>"; };
+		C8055B781524AA8700EC43C8 /* MDSampleRelationsOrderDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSampleRelationsOrderDetailController.h; sourceTree = "<group>"; };
+		C8055B791524AA8700EC43C8 /* MDSampleRelationsOrderDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSampleRelationsOrderDetailController.m; sourceTree = "<group>"; };
+		C8055B7A1524AA8700EC43C8 /* MDSampleRelationsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSampleRelationsController.h; sourceTree = "<group>"; };
+		C8055B7B1524AA8700EC43C8 /* MDSampleRelationsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSampleRelationsController.m; sourceTree = "<group>"; };
 		C8055B841524AAB600EC43C8 /* Mobeelizer.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Mobeelizer.plist; sourceTree = "<group>"; };
-		C8055BCF1524B13C00EC43C8 /* MDSampleRelationConflictsHelp.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDSampleRelationConflictsHelp.xib; sourceTree = "<group>"; };
+		C8055BCF1524B13C00EC43C8 /* MDSampleRelationsHelp.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDSampleRelationsHelp.xib; sourceTree = "<group>"; };
 		C8055BD11524B15B00EC43C8 /* MDSampleFilesHelp.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDSampleFilesHelp.xib; sourceTree = "<group>"; };
+		C8084E2B15FF41CB00A9CA62 /* application.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = application.xml; sourceTree = "<group>"; };
 		C82FAB971563C56000584E51 /* MobeelizerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobeelizerSDK.framework; sourceTree = "<group>"; };
 		C83224031525FA190077DD22 /* MDSampleConflictsHelp.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDSampleConflictsHelp.xib; sourceTree = "<group>"; };
 		C83224051525FB310077DD22 /* MDSampleFilesDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSampleFilesDetailController.h; sourceTree = "<group>"; };
@@ -195,8 +195,8 @@
 		C83224091525FB7D0077DD22 /* MDSamplePermissionsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSamplePermissionsController.m; sourceTree = "<group>"; };
 		C832240B1525FBEB0077DD22 /* MDSampleConflictsDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSampleConflictsDetailController.h; sourceTree = "<group>"; };
 		C832240C1525FBEB0077DD22 /* MDSampleConflictsDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSampleConflictsDetailController.m; sourceTree = "<group>"; };
-		C832240E1525FCB90077DD22 /* MDSampleRelationConflictsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSampleRelationConflictsItem.h; sourceTree = "<group>"; };
-		C832240F1525FCBB0077DD22 /* MDSampleRelationConflictsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSampleRelationConflictsItem.m; sourceTree = "<group>"; };
+		C832240E1525FCB90077DD22 /* MDSampleRelationsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSampleRelationsItem.h; sourceTree = "<group>"; };
+		C832240F1525FCBB0077DD22 /* MDSampleRelationsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSampleRelationsItem.m; sourceTree = "<group>"; };
 		C832242B1529AED90077DD22 /* status_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = status_1.png; path = images/status_1.png; sourceTree = "<group>"; };
 		C832242C1529AED90077DD22 /* status_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = status_2.png; path = images/status_2.png; sourceTree = "<group>"; };
 		C832242D1529AED90077DD22 /* status_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = status_3.png; path = images/status_3.png; sourceTree = "<group>"; };
@@ -356,7 +356,7 @@
 			isa = PBXGroup;
 			children = (
 				09AA32E715580C6D003A909B /* Push */,
-				C8055B591524A9E600EC43C8 /* Relation Conflicts */,
+				C8055B591524A9E600EC43C8 /* Relations */,
 				C8055B581524A9DD00EC43C8 /* Conflicts */,
 				C8055B571524A9D400EC43C8 /* Permissions */,
 				C8055B561524A9CE00EC43C8 /* Files */,
@@ -415,26 +415,26 @@
 			name = Conflicts;
 			sourceTree = "<group>";
 		};
-		C8055B591524A9E600EC43C8 /* Relation Conflicts */ = {
+		C8055B591524A9E600EC43C8 /* Relations */ = {
 			isa = PBXGroup;
 			children = (
-				C8055BCF1524B13C00EC43C8 /* MDSampleRelationConflictsHelp.xib */,
-				C8055B7A1524AA8700EC43C8 /* MDSampleRelationConflictsController.h */,
-				C8055B7B1524AA8700EC43C8 /* MDSampleRelationConflictsController.m */,
-				C8055B781524AA8700EC43C8 /* MDSampleRelationConflictsOrderDetailController.h */,
-				C8055B791524AA8700EC43C8 /* MDSampleRelationConflictsOrderDetailController.m */,
-				C832240E1525FCB90077DD22 /* MDSampleRelationConflictsItem.h */,
-				C832240F1525FCBB0077DD22 /* MDSampleRelationConflictsItem.m */,
-				C8055B761524AA8700EC43C8 /* MDSampleRelationConflictsItemDetailController.h */,
-				C8055B771524AA8700EC43C8 /* MDSampleRelationConflictsItemDetailController.m */,
+				C8055BCF1524B13C00EC43C8 /* MDSampleRelationsHelp.xib */,
+				C8055B7A1524AA8700EC43C8 /* MDSampleRelationsController.h */,
+				C8055B7B1524AA8700EC43C8 /* MDSampleRelationsController.m */,
+				C8055B781524AA8700EC43C8 /* MDSampleRelationsOrderDetailController.h */,
+				C8055B791524AA8700EC43C8 /* MDSampleRelationsOrderDetailController.m */,
+				C832240E1525FCB90077DD22 /* MDSampleRelationsItem.h */,
+				C832240F1525FCBB0077DD22 /* MDSampleRelationsItem.m */,
+				C8055B761524AA8700EC43C8 /* MDSampleRelationsItemDetailController.h */,
+				C8055B771524AA8700EC43C8 /* MDSampleRelationsItemDetailController.m */,
 			);
-			name = "Relation Conflicts";
+			name = Relations;
 			sourceTree = "<group>";
 		};
 		C8055B821524AA9C00EC43C8 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				C8055B831524AAB600EC43C8 /* application.xml */,
+				C8084E2B15FF41CB00A9CA62 /* application.xml */,
 				C8055B841524AAB600EC43C8 /* Mobeelizer.plist */,
 			);
 			name = Configuration;
@@ -530,9 +530,8 @@
 				C8055B261524A84300EC43C8 /* Movies.plist in Resources */,
 				C8055B5E1524AA0A00EC43C8 /* MDSampleSimpleHelp.xib in Resources */,
 				C8055B6B1524AA5200EC43C8 /* MDSamplePermissionsHelp.xib in Resources */,
-				C8055B851524AAB600EC43C8 /* application.xml in Resources */,
 				C8055B861524AAB600EC43C8 /* Mobeelizer.plist in Resources */,
-				C8055BD01524B13C00EC43C8 /* MDSampleRelationConflictsHelp.xib in Resources */,
+				C8055BD01524B13C00EC43C8 /* MDSampleRelationsHelp.xib in Resources */,
 				C8055BD21524B15C00EC43C8 /* MDSampleFilesHelp.xib in Resources */,
 				C83224041525FA190077DD22 /* MDSampleConflictsHelp.xib in Resources */,
 				C83224491529AED90077DD22 /* status_1.png in Resources */,
@@ -567,6 +566,7 @@
 				09FD334215457A22002D72E0 /* logo1_114.png in Resources */,
 				096A1A281546AA5D001B160E /* logo1_57.png in Resources */,
 				094E23E4155964D60063B786 /* MDSamplePushHelp.xib in Resources */,
+				C8084E2C15FF41CB00A9CA62 /* application.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,13 +599,13 @@
 				C8055B5D1524AA0A00EC43C8 /* MDSampleSimpleController.m in Sources */,
 				C8055B611524AA1F00EC43C8 /* MDSampleFilesController.m in Sources */,
 				C8055B721524AA6A00EC43C8 /* MDSampleConflictsController.m in Sources */,
-				C8055B7E1524AA8700EC43C8 /* MDSampleRelationConflictsItemDetailController.m in Sources */,
-				C8055B7F1524AA8700EC43C8 /* MDSampleRelationConflictsOrderDetailController.m in Sources */,
-				C8055B801524AA8700EC43C8 /* MDSampleRelationConflictsController.m in Sources */,
+				C8055B7E1524AA8700EC43C8 /* MDSampleRelationsItemDetailController.m in Sources */,
+				C8055B7F1524AA8700EC43C8 /* MDSampleRelationsOrderDetailController.m in Sources */,
+				C8055B801524AA8700EC43C8 /* MDSampleRelationsController.m in Sources */,
 				C83224071525FB320077DD22 /* MDSampleFilesDetailController.m in Sources */,
 				C832240A1525FB7D0077DD22 /* MDSamplePermissionsController.m in Sources */,
 				C832240D1525FBEC0077DD22 /* MDSampleConflictsDetailController.m in Sources */,
-				C83224101525FCBF0077DD22 /* MDSampleRelationConflictsItem.m in Sources */,
+				C83224101525FCBF0077DD22 /* MDSampleRelationsItem.m in Sources */,
 				09AA32EA15580CA8003A909B /* MDSamplePushController.m in Sources */,
 				094E23E2155960ED0063B786 /* MDSampleController.m in Sources */,
 			);

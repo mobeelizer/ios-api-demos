@@ -1,5 +1,5 @@
 //
-// MDSampleRelationConflictsItemDetailController.m
+// MDSampleRelationsItemDetailController.m
 // 
 // Copyright (C) 2012 Mobeelizer Ltd. All Rights Reserved.
 // 
@@ -16,9 +16,9 @@
 // the License.
 // 
 
-#import "MDSampleRelationConflictsItemDetailController.h"
+#import "MDSampleRelationsItemDetailController.h"
 
-@implementation MDSampleRelationConflictsItemDetailController
+@implementation MDSampleRelationsItemDetailController
 @synthesize delegate = _delegate;
 @synthesize row = _row;
 @synthesize entity = _entity;

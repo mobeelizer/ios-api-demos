@@ -1,5 +1,5 @@
 //
-// MDSampleRelationConflictsOrderDetailController.h
+// MDSampleRelationConflictsController.h
 // 
 // Copyright (C) 2012 Mobeelizer Ltd. All Rights Reserved.
 // 
@@ -17,12 +17,15 @@
 // 
 
 #import <Foundation/Foundation.h>
-#import "MDSampleRelationConflictsController.h"
-#import "MDMGraphsConflictsOrderEntity.h"
+#import "MDSampleTableController.h"
+#import "MDMSyncEntity.h"
 
-@interface MDSampleRelationConflictsOrderDetailController : UITableViewController<MDSampleRelationConflictsDetailController>
-@property (nonatomic) NSUInteger row;
-@property (strong, nonatomic) MDSampleRelationConflictsController* delegate;
-@property (strong, nonatomic) MDMGraphsConflictsOrderEntity* entity;
+@interface MDSampleRelationsController : MDSampleTableController
 
+@end
+
+@protocol MDSampleRelationsDetailController <NSObject>
+- (void) setRow:(NSUInteger)row;
+- (void) setDelegate:(MDSampleRelationsController*)delegate;
+- (void) setEntity:(MDMSyncEntity*)entity;
 @end

@@ -1,5 +1,5 @@
 //
-// MDSampleRelationConflictsController.h
+// MDSampleRelationsItemDetailController.h
 // 
 // Copyright (C) 2012 Mobeelizer Ltd. All Rights Reserved.
 // 
@@ -16,16 +16,16 @@
 // the License.
 // 
 
-#import <Foundation/Foundation.h>
-#import "MDSampleTableController.h"
-#import "MDMSyncEntity.h"
+#import <UIKit/UIKit.h>
+#import "MDSampleRelationsController.h"
+#import "MDMGraphsConflictsItemEntity.h"
 
-@interface MDSampleRelationConflictsController : MDSampleTableController
+@interface MDSampleRelationsItemDetailController : UIViewController<MDSampleRelationsDetailController>
+@property (nonatomic) NSUInteger row;
+@property (strong, nonatomic) MDSampleRelationsController* delegate;
+@property (strong, nonatomic) MDMGraphsConflictsItemEntity* entity;
+@property (weak, nonatomic) IBOutlet UIButton *deleteButton;
 
-@end
+- (IBAction)deleteClicked:(id)sender;
 
-@protocol MDSampleRelationConflictsDetailController <NSObject>
-- (void) setRow:(NSUInteger)row;
-- (void) setDelegate:(MDSampleRelationConflictsController*)delegate;
-- (void) setEntity:(MDMSyncEntity*)entity;
 @end
