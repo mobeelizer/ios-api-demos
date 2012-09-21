@@ -52,7 +52,7 @@ static MDMovies* sharedInstance = nil;
 
 - (MDMovie*)getRandomMovie {
     int randomIndex = arc4random() % [movies count];
-    return [[MDMovie alloc] initWithDictionary:[movies objectAtIndex:randomIndex]];
+    return [[MDMovie alloc] initWithDictionary:movies[randomIndex]];
 }
 
 @end

@@ -40,9 +40,9 @@
     if (indexPath.section == 0 && indexPath.row == 0) {
         error = [Mobeelizer sendRemoteNotification:[self createNotificationMessageWithContent:@"iOS device greets all users!"]];
     } else if (indexPath.section == 1 && indexPath.row == 0) {
-        error = [Mobeelizer sendRemoteNotification:[self createNotificationMessageWithContent:@"iOS device greets user A!"] toUsers: [NSArray arrayWithObject:@"A"]];
+        error = [Mobeelizer sendRemoteNotification:[self createNotificationMessageWithContent:@"iOS device greets user A!"] toUsers: @[@"A"]];
     } else if (indexPath.section == 1 && indexPath.row == 1) {
-        error = [Mobeelizer sendRemoteNotification:[self createNotificationMessageWithContent:@"iOS device greets user B!"] toUsers: [NSArray arrayWithObject:@"B"]];
+        error = [Mobeelizer sendRemoteNotification:[self createNotificationMessageWithContent:@"iOS device greets user B!"] toUsers: @[@"B"]];
     }
     
     if(error != nil) {
@@ -54,13 +54,13 @@
 
 -(NSDictionary*) createNotificationMessageWithContent:(NSString*) content {
     NSMutableDictionary* message = [[NSMutableDictionary alloc] init];
-    [message setObject:content forKey:@"alert"];
+    message[@"alert"] = content;
     
-    [message setObject:@"2" forKey:@"X-NotificationClass"]; // microsoft notification priority
-    [message setObject:@"toast" forKey:@"X-WindowsPhone-Target"]; // notification type
-    [message setObject:@"Push received" forKey:@"Text1"];
-    [message setObject:content forKey:@"Text2"];
-    [message setObject:@"/View/MainPage.xaml" forKey:@"Param"]; // wp7 toast page
+    message[@"X-NotificationClass"] = @"2"; // microsoft notification priority
+    message[@"X-WindowsPhone-Target"] = @"toast"; // notification type
+    message[@"Text1"] = @"Push received";
+    message[@"Text2"] = content;
+    message[@"Param"] = @"/View/MainPage.xaml"; // wp7 toast page
     
     return [NSDictionary dictionaryWithDictionary:message];
 }

@@ -59,7 +59,7 @@
 
 - (void)application:(UIApplication *)app didReceiveRemoteNotification:(NSDictionary *)userInfo {
     NSLog(@"MESSAGE RECEIVED: %@", userInfo);
-    NSString* messageContent = [[userInfo objectForKey:@"aps"] objectForKey:@"alert"];
+    NSString* messageContent = userInfo[@"aps"][@"alert"];
     UIAlertView *message = [[UIAlertView alloc] initWithTitle:@"Push received!"
                                                     message:messageContent
                                                     delegate:nil

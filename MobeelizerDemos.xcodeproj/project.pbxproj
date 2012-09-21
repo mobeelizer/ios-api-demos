@@ -88,6 +88,7 @@
 		C832244F1529AED90077DD22 /* userA.png in Resources */ = {isa = PBXBuildFile; fileRef = C83224311529AED90077DD22 /* userA.png */; };
 		C83224501529AED90077DD22 /* userB.png in Resources */ = {isa = PBXBuildFile; fileRef = C83224321529AED90077DD22 /* userB.png */; };
 		C8322456152C4DDF0077DD22 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C8322455152C4DD80077DD22 /* README.md */; };
+		C8CC4A30160C8C2700A05C0A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8CC4A2F160C8C2600A05C0A /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -187,6 +188,7 @@
 		C8055BCF1524B13C00EC43C8 /* MDSampleRelationsHelp.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDSampleRelationsHelp.xib; sourceTree = "<group>"; };
 		C8055BD11524B15B00EC43C8 /* MDSampleFilesHelp.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDSampleFilesHelp.xib; sourceTree = "<group>"; };
 		C8084E2B15FF41CB00A9CA62 /* application.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = application.xml; sourceTree = "<group>"; };
+		C8084E5116009BD200A9CA62 /* MobeelizerDemos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MobeelizerDemos.entitlements; sourceTree = "<group>"; };
 		C82FAB971563C56000584E51 /* MobeelizerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobeelizerSDK.framework; sourceTree = "<group>"; };
 		C83224031525FA190077DD22 /* MDSampleConflictsHelp.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDSampleConflictsHelp.xib; sourceTree = "<group>"; };
 		C83224051525FB310077DD22 /* MDSampleFilesDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSampleFilesDetailController.h; sourceTree = "<group>"; };
@@ -205,6 +207,7 @@
 		C83224311529AED90077DD22 /* userA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = userA.png; path = images/userA.png; sourceTree = "<group>"; };
 		C83224321529AED90077DD22 /* userB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = userB.png; path = images/userB.png; sourceTree = "<group>"; };
 		C8322455152C4DD80077DD22 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		C8CC4A2F160C8C2600A05C0A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,6 +242,7 @@
 		C8055AD71524A4C900EC43C8 = {
 			isa = PBXGroup;
 			children = (
+				C8CC4A2F160C8C2600A05C0A /* Default-568h@2x.png */,
 				096A1A271546AA5D001B160E /* logo1_57.png */,
 				09FD334115457A22002D72E0 /* logo1_114.png */,
 				09421336152DD0550072782A /* Default@2x.png */,
@@ -292,6 +296,7 @@
 				C8055B4B1524A99D00EC43C8 /* MDConnectDeviceController.h */,
 				C8055B4C1524A99D00EC43C8 /* MDConnectDeviceController.m */,
 				C8055B181524A76400EC43C8 /* MDStoryboard.storyboard */,
+				C8084E5116009BD200A9CA62 /* MobeelizerDemos.entitlements */,
 				C8055AF51524A4C900EC43C8 /* MDAppDelegate.h */,
 				C8055AF61524A4C900EC43C8 /* MDAppDelegate.m */,
 				C8055AED1524A4C900EC43C8 /* Supporting Files */,
@@ -567,6 +572,7 @@
 				096A1A281546AA5D001B160E /* logo1_57.png in Resources */,
 				094E23E4155964D60063B786 /* MDSamplePushHelp.xib in Resources */,
 				C8084E2C15FF41CB00A9CA62 /* application.xml in Resources */,
+				C8CC4A30160C8C2700A05C0A /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -658,6 +664,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MobeelizerDemos/MobeelizerDemos-Prefix.pch";
 				INFOPLIST_FILE = "MobeelizerDemos/MobeelizerDemos-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(SRCROOT)/**",
 					"\"$(SRCROOT)\"",
@@ -731,6 +738,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MobeelizerDemos/MobeelizerDemos-Prefix.pch";
 				INFOPLIST_FILE = "MobeelizerDemos/MobeelizerDemos-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(SRCROOT)/**",
 					"\"$(SRCROOT)\"",
@@ -754,6 +762,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MobeelizerDemos/MobeelizerDemos-Prefix.pch";
 				INFOPLIST_FILE = "MobeelizerDemos/MobeelizerDemos-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(SRCROOT)/**",
 					"\"$(SRCROOT)\"",

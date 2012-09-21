@@ -102,7 +102,7 @@
             nameLabel.text = [NSString stringWithFormat:@"Order %@", orderBean.name];
             
             imageView = (UIImageView*)[cell viewWithTag:2];
-            imageView.image = [statusImages objectAtIndex:(orderBean.status - 1)];
+            imageView.image = statusImages[(orderBean.status - 1)];
             
             break;
         case MDSampleRelationsItemTypeItem:

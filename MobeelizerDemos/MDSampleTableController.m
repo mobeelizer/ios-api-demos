@@ -45,17 +45,17 @@
 }
 
 - (id)itemAtRow:(NSInteger)row {
-    return [currentItems objectAtIndex:row];
+    return currentItems[row];
 }
 
 - (void)updateRow:(NSInteger)row withItem:(id)item {
     NSIndexPath* indexPath = [NSIndexPath indexPathForRow:row inSection:0];
     if (item == nil) {
         [currentItems removeObjectAtIndex:row];
-        [self.tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
+        [self.tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
     } else {
-        [currentItems replaceObjectAtIndex:row withObject:item];
-        [self.tableView reloadRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationNone];
+        currentItems[row] = item;
+        [self.tableView reloadRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationNone];
     }
 }
 
@@ -112,7 +112,7 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {    
-    id item = [currentItems objectAtIndex:[indexPath row]];
+    id item = currentItems[[indexPath row]];
     UITableViewCell* cell = [self createCellForItem:item atRow:indexPath.row];
     
     MDMSyncEntity* entity = item;
@@ -141,7 +141,7 @@
 }
 
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
-    id item = [currentItems objectAtIndex:[indexPath row]];
+    id item = currentItems[[indexPath row]];
     MDMSyncEntity* entity = item;
     if ([item respondsToSelector:@selector(entity)]) {
         entity = [item valueForKey:@"entity"];
@@ -180,7 +180,7 @@
     currentItems = [[NSMutableArray alloc] initWithArray:[self getItemsList]];
     NSInteger row = -1;
     for (NSInteger i=0; i<currentItems.count; i++) {
-        if ([newItem.guid isEqualToString:((MDMSyncEntity*)[currentItems objectAtIndex:i]).guid]) {
+        if ([newItem.guid isEqualToString:((MDMSyncEntity*)currentItems[i]).guid]) {
             row = i;
             break;
         }
@@ -188,20 +188,20 @@
     
     NSIndexPath* indexPath = [NSIndexPath indexPathForRow:row inSection:0];
     
-    [self.tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationLeft];
+    [self.tableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationLeft];
     [self.tableView scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionMiddle animated:YES];
 }
 
 - (void) insertNewCurrentItems {
     NSMutableDictionary* objects = [[NSMutableDictionary alloc] init];
     for (id item in currentItems) {
-        [objects setObject:item forKey:[item valueForKey:@"guid"]];
+        objects[[item valueForKey:@"guid"]] = item;
     }
     currentItems = [[NSMutableArray alloc] initWithArray:[self getItemsList]];
     NSMutableArray* indexesToInsert = [[NSMutableArray alloc] init];
     for (NSInteger i=0; i<currentItems.count; i++) {
-        id newItem = [currentItems objectAtIndex:i];
-        id oldItem = [objects objectForKey:[newItem valueForKey:@"guid"]];
+        id newItem = currentItems[i];
+        id oldItem = objects[[newItem valueForKey:@"guid"]];
         if (oldItem == nil) {
             [indexesToInsert addObject:[NSIndexPath indexPathForRow:i inSection:0]];
         }
@@ -222,7 +222,7 @@
         NSArray* oldItems = currentItems;
         NSMutableDictionary* oldObjects = [[NSMutableDictionary alloc] init];
         for (id item in currentItems) {
-            [oldObjects setObject:item forKey:[item valueForKey:@"guid"]];
+            oldObjects[[item valueForKey:@"guid"]] = item;
         }
         
         MobeelizerOperationError *error = [Mobeelizer sync];
@@ -235,7 +235,7 @@
         NSArray *newItems = [self getItemsList];
         NSMutableDictionary* newObjects = [[NSMutableDictionary alloc] init];
         for (id item in newItems) {
-            [newObjects setObject:item forKey:[item valueForKey:@"guid"]];
+            newObjects[[item valueForKey:@"guid"]] = item;
         }
         
         NSMutableArray* indexesToInsert = [[NSMutableArray alloc] init];
@@ -244,16 +244,16 @@
         NSMutableArray* indexesToClear = [[NSMutableArray alloc] init];
         
         for (NSInteger i=0; i<oldItems.count; i++) {
-            id oldItem = [oldItems objectAtIndex:i];
-            id newItem = [newObjects objectForKey:[oldItem valueForKey:@"guid"]];
+            id oldItem = oldItems[i];
+            id newItem = newObjects[[oldItem valueForKey:@"guid"]];
             if (newItem == nil) {
                 [indexesToDelete addObject:[NSIndexPath indexPathForRow:i inSection:0]];
             }
         }
 
         for (NSInteger i=0; i<newItems.count; i++) {
-            id newItem = [newItems objectAtIndex:i];
-            id oldItem = [oldObjects objectForKey:[newItem valueForKey:@"guid"]];
+            id newItem = newItems[i];
+            id oldItem = oldObjects[[newItem valueForKey:@"guid"]];
             if (oldItem == nil) {
                 [indexesToInsert addObject:[NSIndexPath indexPathForRow:i inSection:0]];
             } else if (![oldItem isEqual:newItem]) {

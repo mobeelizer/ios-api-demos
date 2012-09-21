@@ -90,7 +90,7 @@
 }
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
-    UIImage *chosenImage = [info objectForKey:UIImagePickerControllerEditedImage];
+    UIImage *chosenImage = info[UIImagePickerControllerEditedImage];
     NSData *imageData = UIImageJPEGRepresentation(chosenImage, 0.5);
     MobeelizerFile* file = [Mobeelizer createFile:@"file" withData:imageData];
     [self addFile:file];
@@ -129,7 +129,7 @@
 - (void)getMediaFromSource:(UIImagePickerControllerSourceType)sourceType {
     NSArray *mediaTypes = [UIImagePickerController availableMediaTypesForSourceType:sourceType];
     if ([UIImagePickerController isSourceTypeAvailable:sourceType] && [mediaTypes count] > 0) {
-        NSArray *mediaTypes = [[NSArray alloc] initWithObjects: (NSString *) kUTTypeImage, nil];
+        NSArray *mediaTypes = @[(NSString *) kUTTypeImage];
         UIImagePickerController *picker = [[UIImagePickerController alloc] init];
         picker.mediaTypes = mediaTypes;
         picker.delegate = self;

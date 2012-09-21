@@ -120,7 +120,7 @@
         NSDictionary* mobeelizerProperties = [[NSDictionary alloc] initWithContentsOfFile:path];
         
         NSString* baseUrl = nil;
-        NSString* propUrl = [mobeelizerProperties objectForKey:@"url"];
+        NSString* propUrl = mobeelizerProperties[@"url"];
         BOOL isTest = false;
         
         if (propUrl == nil) {
@@ -129,7 +129,7 @@
             baseUrl = propUrl;
         }
         
-        if ([@"test" isEqualToString:[mobeelizerProperties objectForKey:@"mode"]]) {
+        if ([@"test" isEqualToString:mobeelizerProperties[@"mode"]]) {
             isTest = true;
         }
 

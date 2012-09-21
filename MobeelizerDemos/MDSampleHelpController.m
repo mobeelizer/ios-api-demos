@@ -37,7 +37,7 @@
     UIBarButtonItem *space = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil];
     UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemReply target:self action:@selector(backButtonClicked:)];
     backButton.style = UIBarButtonItemStyleBordered;
-    [toolbar setItems:[NSArray arrayWithObjects:space,backButton, nil]];
+    [toolbar setItems:@[space,backButton]];
     
 //    if ([self.view isKindOfClass:[UIControl class]]) {
 //        UIControl* viewControl = (UIControl *) self.view;

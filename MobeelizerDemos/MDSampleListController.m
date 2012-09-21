@@ -58,7 +58,7 @@
 - (void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex {
     if ([[actionSheet buttonTitleAtIndex:buttonIndex] isEqual:@"Logout"]) {
         [self performLogout];
-        MDSessionCreateController* rootController = (MDSessionCreateController*) [self.navigationController.viewControllers objectAtIndex:0];
+        MDSessionCreateController* rootController = (MDSessionCreateController*) (self.navigationController.viewControllers)[0];
         [rootController setSessionNumber:self.sessionNumber];
         [self.navigationController popToRootViewControllerAnimated:YES];
     }
